@@ -25,12 +25,4 @@ public class Obstacle : MonoBehaviour
             SceneManager.LoadScene("Level1");
         }
     }
-
-/*    private void OnCollisionEnter (Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            SceneManager.LoadScene("Level1");
-        }
-    }*/
 }
