@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -76,7 +77,19 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
+        Color myColor = GetComponent<SpriteRenderer>().color;
+        Debug.Log("mycolor: " + myColor);
+        Color otherColor = col.gameObject.GetComponent<SpriteRenderer>().color;
+        Debug.Log("platform color: " + otherColor);
 
+        if (Mathf.Approximately (myColor.r, otherColor.r))
+        {
+            Debug.Log("yes");
+        }
+        else
+        {
+            SceneManager.LoadScene("Level1");
+        }
     }
 
     private bool isGrounded()
