@@ -13,24 +13,49 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] float horizontalSpeed = 7f;
 
+    [SerializeField] Color blue;
+    [SerializeField] Color orange;
+    private SpriteRenderer spriteRenderer;
+
     public float jumpHeight = 10f;
     private bool grounded = true;
     private float wallJumpCoolDown;
     private float dirX;
+    int randNum;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
+
+        spriteRenderer = GetComponent<SpriteRenderer>();
+
+        randNum = Random.Range(0, 2);
+
+        if (randNum == 1)
+        {
+            spriteRenderer.color = blue;
+            Debug.Log("blueblue" + randNum);
+        }
+        else
+        {
+            spriteRenderer.color = orange;
+            Debug.Log("orangeorange" + randNum);
+        }
+
     }
 
     // Update is called once per frame
     private void Update()
     {
+
+
+        //dirX is horintonal axis, a/d, left or right
         dirX = Input.GetAxis("Horizontal");
 
         if (wallJumpCoolDown > 0.2f)
         {
+            //on wall jump and on ground jump
             rb.velocity = new Vector2(dirX * horizontalSpeed, rb.velocity.y);
 
             if (onWall() && !isGrounded())
@@ -56,11 +81,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
+        //if players is grounded, able to jump 
         if (isGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
         }
-        else if (onWall() && !isGrounded())
+        else if (onWall() && !isGrounded()) //climb on the verticle wall
         {
             if (dirX == 0)
             {
@@ -77,28 +103,38 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
+        //check if the platform color is same as player color
         Color myColor = GetComponent<SpriteRenderer>().color;
         Debug.Log("mycolor: " + myColor);
         Color otherColor = col.gameObject.GetComponent<SpriteRenderer>().color;
         Debug.Log("platform color: " + otherColor);
 
-        if (Mathf.Approximately (myColor.r, otherColor.r))
+        if (myColor.r <= otherColor.r+ 0.02 && myColor.r >= otherColor.r - 0.02 )
         {
-            Debug.Log("yes");
+            //Debug.Log("color is same");
         }
         else
         {
+            //if land on the wrong color platform, level restarts
             SceneManager.LoadScene("Level1");
+        }
+
+        if(col.gameObject.layer == 10)
+        {
+            Debug.Log("Yes, you win this game!");
         }
     }
 
     private bool isGrounded()
     {
+        //if the raycast hit the box under the player and is at the ground layer 
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0 , Vector2.down, 0.1f,groundLayer);
         return raycastHit.collider != null;
     }
     private bool onWall()
     {
+        //if the raycast hit the box on the right or left side of the player (depending where it faces)
+        //and is at the wall layer 
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, new Vector2(transform.localScale.x,0), 0.1f, wallLayer); // detect the direction of the player
         return raycastHit.collider != null;
     }
