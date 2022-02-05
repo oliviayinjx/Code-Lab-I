@@ -22,7 +22,7 @@ public class Obstacle : MonoBehaviour
     {
         if (col.gameObject.tag == "Obstacle")
         {
-            SceneManager.LoadScene("Level1");
+            
         }
     }
 }

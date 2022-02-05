@@ -5,9 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class deathDetect : MonoBehaviour
 {
+    private GameManager gameManager; 
+
     void Start()
     {
-        
+        gameManager = GameManager.findInstance();   
     }
 
     // Update is called once per frame
@@ -20,7 +22,7 @@ public class deathDetect : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("Level1");
+            GameManager.reloadCurrent();
         }
     }
 
