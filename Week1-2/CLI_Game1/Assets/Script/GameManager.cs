@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
-{
+{   
+    //making score static to make sure there is only one score in the game
     public static float score;
     private int highScore;
 
