@@ -107,9 +107,9 @@ public class PlayerMovement : MonoBehaviour
     {
         //check if the platform color is same as player color
         Color myColor = GetComponent<SpriteRenderer>().color;
-        Debug.Log("mycolor: " + myColor);
+        //Debug.Log("mycolor: " + myColor);
         Color otherColor = col.gameObject.GetComponent<SpriteRenderer>().color;
-        Debug.Log("platform color: " + otherColor);
+        //Debug.Log("platform color: " + otherColor);
 
         if (myColor.r <= otherColor.r + 0.02 && myColor.r >= otherColor.r - 0.02)
         {

@@ -7,9 +7,9 @@ public class GameManager : MonoBehaviour
 {   
     //making score static to make sure there is only one score in the game
     public static float score;
-    private int highScore;
+    private float highScore;
 
-    public int HighScore
+    public float HighScore
     {
         get
         {
@@ -52,7 +52,11 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (score > highScore)
+        {
+            highScore = score;
+            Debug.Log("High Score" + highScore);
+        }
     }
 
     public static void loadNextScene()
