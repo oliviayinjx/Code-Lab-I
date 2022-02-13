@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 {   
     //making score static to make sure there is only one score in the game
     public static float score;
+    private static int collect;
+    private static int startCollect;
     private float highScore;
 
     public float HighScore
@@ -18,6 +20,18 @@ public class GameManager : MonoBehaviour
         set
         {
             highScore = value; 
+        }
+    }
+
+    public int Collect
+    {
+        get
+        {
+            return collect;
+        }
+        set
+        {
+            collect = value; 
         }
     }
 
@@ -62,10 +76,17 @@ public class GameManager : MonoBehaviour
     public static void loadNextScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //store collectiable at the begin of each level
+        startCollect = collect;
+        Debug.Log("Collectible: " + collect);
     }
 
     public static void reloadCurrent()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //reload level, and collect numbers back to orgin state, avoid repeat
+        collect = startCollect;
     }
+
+
 }
