@@ -6,11 +6,12 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {   
     //making score static to make sure there is only one score in the game
-    public static float score;
-    private static int collect;
-    private static int startCollect;
-    private float highScore;
+    public static float score; //level player reach
+    private static int collect; //how many collectables player gets
+    private static int startCollect; //sum of last levels which is starting number of next level
+    private float highScore; //highest level player reach
 
+    //getter and setter of highscore
     public float HighScore
     {
         get
@@ -22,7 +23,7 @@ public class GameManager : MonoBehaviour
             highScore = value; 
         }
     }
-
+    //getter and setter of collectables
     public int Collect
     {
         get
@@ -68,6 +69,8 @@ public class GameManager : MonoBehaviour
     {
         if (score > highScore)
         {
+            //if socre is greater than highScore
+            //replace highscore with current score
             highScore = score;
             Debug.Log("High Score" + highScore);
         }
@@ -75,6 +78,7 @@ public class GameManager : MonoBehaviour
 
     public static void loadNextScene()
     {
+        //load next level in the order of build index
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         //store collectiable at the begin of each level
         startCollect = collect;
@@ -83,6 +87,7 @@ public class GameManager : MonoBehaviour
 
     public static void reloadCurrent()
     {
+        //reload current level
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         //reload level, and collect numbers back to orgin state, avoid repeat
         collect = startCollect;

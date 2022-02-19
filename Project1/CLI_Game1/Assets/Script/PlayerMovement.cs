@@ -9,31 +9,43 @@ public class PlayerMovement : MonoBehaviour
     private BoxCollider2D boxCollider;
     private GameManager gameManager; 
 
+    //need to assign ground and wall layer for player
+    //to detect whether it is collide with wall or ground
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask wallLayer;
 
+    //player movement speed
     [SerializeField] float horizontalSpeed = 7f;
 
+    //each level has two colors, assign colors for each level
     [SerializeField] Color color1;
     [SerializeField] Color color2;
     private SpriteRenderer spriteRenderer;
 
+    //player jump height
     public float jumpHeight = 10f;
+    //to detect whether player is on the ground or not
     private bool grounded = true;
+    //cool down time before next wall jump
     private float wallJumpCoolDown;
+    //determine the x direction
     private float dirX;
+    //for generating a random number and assign one of two colors at the start of the level
     int randNum;
 
     void Start()
     {
+        //get the rigidbody and box collider of player
         rb = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
-
+        //get the sprite renderer to change the color
         spriteRenderer = GetComponent<SpriteRenderer>();
+        //find the game manager
         gameManager = GameManager.findInstance();
-
+        //randon num will generated between 0 and 1
         randNum = Random.Range(0, 2);
 
+        //if number is 1, player will be generated with color 1 at the start of game
         if (randNum == 1)
         {
             spriteRenderer.color = color1;
@@ -50,26 +62,26 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-
-
         //dirX is horintonal axis, a/d, left or right
         dirX = Input.GetAxis("Horizontal");
 
+        //not allow to jump until 0.2s later
         if (wallJumpCoolDown > 0.2f)
         {
             //on wall jump and on ground jump
             rb.velocity = new Vector2(dirX * horizontalSpeed, rb.velocity.y);
-
+            //if player on wall and not on ground
+            //turn of gravity and velocity
             if (onWall() && !isGrounded())
             {
                 rb.gravityScale = 0;
                 rb.velocity = Vector2.zero;
             }
-            else
+            else //if not on wall or not on ground, or only on ground, turn gravity to normal
             {
                 rb.gravityScale = 1;
             }
-
+            //when press space button, jump
             if (Input.GetButtonDown("Jump"))
             {
                 Jump();
@@ -77,29 +89,33 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            wallJumpCoolDown += Time.deltaTime;
+            wallJumpCoolDown += Time.deltaTime; //counting the cool down time
         }
     }
-
+   
     private void Jump()
     {
         //if players is grounded, able to jump 
         if (isGrounded())
         {
+            //jump height is set at the front side
             rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
         }
         else if (onWall() && !isGrounded()) //climb on the verticle wall
         {
             if (dirX == 0)
             {
-                rb.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 7, 0);              //add a velocity to push player away from the wall
-                transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x), transform.localScale.y, transform.localScale.z); //flip direction of player when jump off wall
+                //add a velocity to push player away from the wall
+                rb.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 7, 0);              
+                //flip direction of player when jump off wall
+                transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x), transform.localScale.y, transform.localScale.z); 
             }
             else
             {
-                rb.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 3, 6);             //add a velocity to push player away from the wall
+                //add a velocity to push player away from the wall
+                rb.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 3, 6);             
             }
-            wallJumpCoolDown = 0;
+            wallJumpCoolDown = 0; //clear cool down timer
         }
     }
 
@@ -120,7 +136,7 @@ public class PlayerMovement : MonoBehaviour
             //if land on the wrong color platform, level restarts
             death();
         }
-
+        //if player collide with the last platform ( in third color), they successfully pass this level
         if (col.gameObject.layer == 10)
         {
             nextLevel();
@@ -141,11 +157,13 @@ public class PlayerMovement : MonoBehaviour
         return raycastHit.collider != null;
     }
 
+    //if player dies,restart this level
     private void death()
     {
         GameManager.reloadCurrent();
     }
-
+    //load next level
+    //level score plus 1
     private void nextLevel()
     {
         GameManager.loadNextScene();
