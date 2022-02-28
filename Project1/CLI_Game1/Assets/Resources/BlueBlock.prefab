@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6117219626720235680}
   - component: {fileID: 284146052814016851}
   - component: {fileID: 7383446778091554328}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BlueBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}

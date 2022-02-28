@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5240662419048106786}
   - component: {fileID: 3272474621500886603}
   - component: {fileID: -3818132852561584443}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: YellowBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
