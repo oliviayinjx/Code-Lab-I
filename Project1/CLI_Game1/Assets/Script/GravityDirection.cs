@@ -1,38 +1,40 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GravityDirection : MonoBehaviour
 {
+    private Rigidbody2D rb;
     public enum State{
         //change gravity to different directions
-        graRight,
         graDown,
         graUp
     }
-    //singleton for the gravity direction status script
-    private static GravityDirection instance;
 
-    State currentState; 
+    [SerializeField]State currentState; //different gravity direction for different level
 
     // Start is called before the first frame update
-    void Awake(){
-        //singleton
-        if(instance!= this && instance != null){
-            Destroy(this);
-        }else{
-            instance = this;
-            DontDestroyOnLoad(gameObject); //keep through scene
-        }
+    void Start(){
+
 
     }
+
+    void Update(){
+        //test changing state according to the z and x keys
+        //debug purpose
+        if(Input.GetKeyDown("z")){
+            TransitionState(State.graUp);
+        }
+        else if(Input.GetKeyDown("x")){
+            TransitionState(State.graDown);
+        }
+    }
+    
     // Update is called once per frame
-    void Update()
+    void TransitionState(State newState)
     {
-        switch (currentState){
-            case State.graRight:
-                Physics2D.gravity = new Vector2(9.81f,0);
-            break;
+        switch (newState){
             case State.graDown:
                 Physics2D.gravity = new Vector2(0,-9.81f);
             break;
