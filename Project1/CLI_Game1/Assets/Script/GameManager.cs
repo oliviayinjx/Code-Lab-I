@@ -42,6 +42,7 @@ public class GameManager : MonoBehaviour
     {
         return instance; 
     }
+
     //singleton 
     private void Awake()
     {
