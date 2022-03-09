@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637822216650000000
+      ticks: 637823850780000000
     m_Hash: 2260446868
   m_LockFileStatus:
     m_FilePath: /Users/oliviayinjx/Documents/GitHub/Code-Lab-I/Project1/CLI_Game1/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637822216650000000
+      ticks: 637823850780000000
     m_Hash: 540712229
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -1432,11 +1432,13 @@ m_PackageAssets:
         - 3.0.6
         - 3.2.0-pre.1
         - 3.2.0-pre.2
+        - 3.2.0-pre.3
         - 4.0.0-pre.1
         compatible:
         - 3.0.6
         - 3.2.0-pre.1
         - 3.2.0-pre.2
+        - 3.2.0-pre.3
         verified: 3.0.6
       dependencies:
       - name: com.unity.ugui

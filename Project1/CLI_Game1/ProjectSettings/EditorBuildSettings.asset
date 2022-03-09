@@ -9,12 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/main menu.unity
     guid: 967faa4b9c285a24d8bba48dfc3dd8aa
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
+    path: Assets/Scenes/platformer/Level1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Level2.unity
+    path: Assets/Scenes/platformer/Level2.unity
     guid: d047ace963879e14aa7b9f03a8bd5ab4
   - enabled: 1
-    path: Assets/Scenes/Level3.unity
+    path: Assets/Scenes/platformer/Level3.unity
     guid: 4777aafbcdaffa54dbcf476059725853
   m_configObjects: {}
