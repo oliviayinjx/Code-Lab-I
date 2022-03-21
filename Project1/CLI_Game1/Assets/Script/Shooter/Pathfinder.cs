@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Pathfinder : MonoBehaviour
 {
+    //this script on enemy
+
     //reference to wave config object
     WaveConfigSO waveConfig;
     EnemySpawner enemySpawner;

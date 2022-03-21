@@ -21,8 +21,8 @@ TagManager:
   - Wall
   - Win
   - Collectible
-  - 
-  - 
+  - sPlayer
+  - sEnemy
   - 
   - 
   - 

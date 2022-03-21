@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/LaserDefender/LaserLevel1.unity
+- path: Assets/Scenes/Shooter/LaserLevel1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

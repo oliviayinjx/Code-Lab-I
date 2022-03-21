@@ -11,6 +11,11 @@ public class WaveConfigSO : ScriptableObject //change monobehavior to scriptable
 
     [SerializeField] Transform pathPrefab;
     [SerializeField] float moveSpeed = 5f;
+    //spawn at different time
+    [SerializeField] float timeBetweenEnemySpawns = 1f;
+    [SerializeField] float spawnTimeVariance = 0f; //give randomness to spawn pace
+    [SerializeField] float minimumSpawnTime = 0.2f;
+
     int enemyCount;
 
     //get the first starting point on the wave
@@ -47,7 +52,15 @@ public class WaveConfigSO : ScriptableObject //change monobehavior to scriptable
     //return the enemy prefab at the given index
     public GameObject GetEnemyPrefab(int index)
     {
-
         return enemyPrefabs[index];
+    }
+
+    public float GetRandomSpawnTime()
+    {
+        //give a random spawn value in the range
+        float spawnTime = Random.Range(timeBetweenEnemySpawns - spawnTimeVariance,
+                                    timeBetweenEnemySpawns + spawnTimeVariance);
+
+        return Mathf.Clamp(spawnTime, minimumSpawnTime, float.MaxValue);
     }
 }
