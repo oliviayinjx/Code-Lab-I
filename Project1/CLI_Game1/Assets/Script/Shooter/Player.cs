@@ -18,6 +18,14 @@ public class Player : MonoBehaviour
     //player moving speed
     [SerializeField]float moveSpeed = 5f;
 
+    //get shooter script
+    Shooter shooter;
+    private void Awake()
+    {
+        //get shooter
+        shooter = GetComponent<Shooter>();
+    }
+
     private void Start()
     {
         //get the boundry of the camera at the start
@@ -55,6 +63,13 @@ public class Player : MonoBehaviour
     {
         //debug purpose 
         rawInput = value.Get<Vector2>();
-        Debug.Log(rawInput);
+    }
+    //player fire projectile 
+    void OnFire(InputValue value)
+    {
+        if(shooter != null)
+        {
+            shooter.isFiring = value.isPressed;
+        }
     }
 }
