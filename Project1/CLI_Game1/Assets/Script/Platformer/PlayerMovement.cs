@@ -33,6 +33,16 @@ public class PlayerMovement : MonoBehaviour
     //for generating a random number and assign one of two colors at the start of the level
     int randNum;
 
+    //two states bool for animation
+    [HideInInspector]public bool jumpThisFrame;
+    [HideInInspector] public bool landed;
+    [HideInInspector] public bool landThisFrame;
+    
+    //check in air
+    float groundY;
+    float jumpY;
+
+
     void Start()
     {
         //get the rigidbody and box collider of player
@@ -82,27 +92,37 @@ public class PlayerMovement : MonoBehaviour
                 rb.gravityScale = 1;
             }
             //when press space button, jump
-            if (Input.GetButtonDown("Jump"))
-            {
-                Jump();
-            }
+
+             Jump();
+            
+
         }
         else
         {
             wallJumpCoolDown += Time.deltaTime; //counting the cool down time
         }
+
+        if (isGrounded() && rb.velocity.y > 0.1f)
+        {
+            landThisFrame = false;
+            landed = false;
+        }
+
+        
     }
    
     private void Jump()
     {
         //if players is grounded, able to jump 
-        if (isGrounded())
+        if (isGrounded() && Input.GetButtonDown("Jump"))
         {
             //jump height is set at the front side
             rb.velocity = new Vector2(rb.velocity.x, jumpHeight);
+            jumpThisFrame = true;
         }
-        else if (onWall() && !isGrounded()) //climb on the verticle wall
+        else if (onWall() && !isGrounded() && Input.GetButtonDown("Jump")) //climb on the verticle wall
         {
+            jumpThisFrame = true;
             if (dirX == 0)
             {
                 //add a velocity to push player away from the wall
@@ -116,6 +136,10 @@ public class PlayerMovement : MonoBehaviour
                 rb.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 3, 6);             
             }
             wallJumpCoolDown = 0; //clear cool down timer
+        }
+        else
+        {
+            jumpThisFrame = false;
         }
     }
 
@@ -141,14 +165,21 @@ public class PlayerMovement : MonoBehaviour
         {
             nextLevel();
         }
+
+        if (col.gameObject.layer == 8) //ground
+        {
+            landThisFrame = true; 
+        }
     }
 
     private bool isGrounded()
     {
-        //if the raycast hit the box under the player and is at the ground layer 
+        landed = true; 
+        //if the raycast hit the box under the player and is at the ground layer
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
         return raycastHit.collider != null;
     }
+
     private bool onWall()
     {
         //if the raycast hit the box on the right or left side of the player (depending where it faces)
@@ -169,4 +200,5 @@ public class PlayerMovement : MonoBehaviour
         GameManager.loadNextScene();
         GameManager.score += 1;
     }
+
 }

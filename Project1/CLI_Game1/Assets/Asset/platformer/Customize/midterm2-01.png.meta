@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: 19bbd61732fad4e5eb470c69b07c51c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7456714612754134361
+    second: midterm2-01_0
+  - first:
+      213: -9049875105715907629
+    second: midterm2-01_1
+  - first:
+      213: -4775641022570702160
+    second: midterm2-01_2
+  - first:
+      213: -6326767337511533594
+    second: midterm2-01_3
+  - first:
+      213: -8891179649473874736
+    second: midterm2-01_4
+  - first:
+      213: 5653533594389892107
+    second: midterm2-01_5
+  - first:
+      213: 7657602422108779915
+    second: midterm2-01_6
+  - first:
+      213: 1258710922900206906
+    second: midterm2-01_7
+  - first:
+      213: 2448703287857624382
+    second: midterm2-01_8
+  - first:
+      213: 736361119540217203
+    second: midterm2-01_9
+  - first:
+      213: -1298896535232434350
+    second: midterm2-01_10
+  - first:
+      213: -1035317035602873724
+    second: midterm2-01_11
+  - first:
+      213: 2904723803038663418
+    second: midterm2-01_12
+  - first:
+      213: -3357425606863630543
+    second: midterm2-01_13
+  - first:
+      213: -8439083954613394119
+    second: midterm2-01_14
+  - first:
+      213: -6590269579949027393
+    second: midterm2-01_15
+  - first:
+      213: -7249748312931354309
+    second: midterm2-01_16
+  - first:
+      213: 7629308584947026094
+    second: midterm2-01_17
+  - first:
+      213: 5605903215847935956
+    second: midterm2-01_18
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: midterm2-01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1334.4
+        width: 333.5
+        height: 333.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955bca4de629b7760800000000000000
+      internalID: 7456714612754134361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: midterm2-01_1
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1334.4
+        width: 333.5
+        height: 333.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d317262a82686280800000000000000
+      internalID: -9049875105715907629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: midterm2-01_2
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1334.4
+        width: 333.5
+        height: 333.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bad3eadac389bdb0800000000000000
+      internalID: -4775641022570702160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: midterm2-01_3
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1334.4
+        width: 333.5
+        height: 333.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3c41f80aec238a0800000000000000
+      internalID: -6326767337511533594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: midterm2-01_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1001.4
+        width: 333.5
+        height: 333.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d47dee573f2c9480800000000000000
+      internalID: -8891179649473874736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: midterm2-01_5
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1001.4
+        width: 333.5
+        height: 333.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cc853b9d2657e40800000000000000
+      internalID: 5653533594389892107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: midterm2-01_6
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1001.4
+        width: 333.5
+        height: 333.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85f6f8c4d4454a60800000000000000
+      internalID: 7657602422108779915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: midterm2-01_7
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1001.4
+        width: 333.5
+        height: 333.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35fe5a5ae6d77110800000000000000
+      internalID: 1258710922900206906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: midterm2-01_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 668.4
+        width: 333.5
+        height: 333.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35b511aaaa8bf120800000000000000
+      internalID: 2448703287857624382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: midterm2-01_9
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 668.4
+        width: 333.5
+        height: 333.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3758a9c6984183a00800000000000000
+      internalID: 736361119540217203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: midterm2-01_10
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 668.4
+        width: 333.5
+        height: 333.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f2c79ab7469fde0800000000000000
+      internalID: -1298896535232434350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: midterm2-01_11
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 668.4
+        width: 333.5
+        height: 333.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482faf634a0d1a1f0800000000000000
+      internalID: -1035317035602873724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: midterm2-01_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335.4
+        width: 333.5
+        height: 333.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2cdb2b8e6af4820800000000000000
+      internalID: 2904723803038663418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: midterm2-01_13
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 335.4
+        width: 333.5
+        height: 333.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13fc71fe2370861d0800000000000000
+      internalID: -3357425606863630543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: midterm2-01_14
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 335.4
+        width: 333.5
+        height: 333.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935e19ffad952ea80800000000000000
+      internalID: -8439083954613394119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: midterm2-01_15
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 335.4
+        width: 333.5
+        height: 333.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf4319dbb8aa84a0800000000000000
+      internalID: -6590269579949027393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: midterm2-01_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.399994
+        width: 333.5
+        height: 333.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b393db8f158b36b90800000000000000
+      internalID: -7249748312931354309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: midterm2-01_17
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 2.399994
+        width: 333.5
+        height: 333.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea80b977cbfb0e960800000000000000
+      internalID: 7629308584947026094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: midterm2-01_18
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 2.399994
+        width: 333.5
+        height: 333.6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df06d1064b2ccd40800000000000000
+      internalID: 5605903215847935956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
