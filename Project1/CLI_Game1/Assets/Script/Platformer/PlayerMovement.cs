@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
     //each level has two colors, assign colors for each level
     [SerializeField] Color color1;
     [SerializeField] Color color2;
-    private SpriteRenderer spriteRenderer;
+    [HideInInspector]public SpriteRenderer spriteRenderer;
 
     //player jump height
     public float jumpHeight = 10f;
@@ -107,6 +107,7 @@ public class PlayerMovement : MonoBehaviour
             landThisFrame = false;
             landed = false;
         }
+  
 
         
     }
@@ -168,9 +169,10 @@ public class PlayerMovement : MonoBehaviour
 
         if (col.gameObject.layer == 8) //ground
         {
-            landThisFrame = true; 
+            landThisFrame = true;
         }
     }
+
 
     private bool isGrounded()
     {
