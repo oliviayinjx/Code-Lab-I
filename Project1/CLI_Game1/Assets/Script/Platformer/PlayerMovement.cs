@@ -20,7 +20,8 @@ public class PlayerMovement : MonoBehaviour
     //each level has two colors, assign colors for each level
     [SerializeField] Color color1;
     [SerializeField] Color color2;
-    [HideInInspector]public SpriteRenderer spriteRenderer;
+    SpriteRenderer spriteRenderer;
+    public Color selectColor;
 
     //player jump height
     public float jumpHeight = 10f;
@@ -32,11 +33,14 @@ public class PlayerMovement : MonoBehaviour
     private float dirX;
     //for generating a random number and assign one of two colors at the start of the level
     int randNum;
+    //flip character
+    bool isFacingRight = true;
 
     //two states bool for animation
     [HideInInspector]public bool jumpThisFrame;
     [HideInInspector] public bool landed;
     [HideInInspector] public bool landThisFrame;
+
     
     //check in air
     float groundY;
@@ -59,11 +63,13 @@ public class PlayerMovement : MonoBehaviour
         if (randNum == 1)
         {
             spriteRenderer.color = color1;
+            selectColor = color1;
             //Debug.Log("blueblue" + randNum);
         }
         else
         {
             spriteRenderer.color = color2;
+            selectColor = color2;
             //Debug.Log("orangeorange" + randNum);
         }
 
@@ -72,14 +78,23 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+
         //dirX is horintonal axis, a/d, left or right
         dirX = Input.GetAxis("Horizontal");
+
+
+        //if facing right and want to move to left, or other situation flip
+        if (isFacingRight && dirX < 0) flip();
+        else if (!isFacingRight && dirX > 0) flip();
 
         //not allow to jump until 0.2s later
         if (wallJumpCoolDown > 0.2f)
         {
             //on wall jump and on ground jump
             rb.velocity = new Vector2(dirX * horizontalSpeed, rb.velocity.y);
+
+
+
             //if player on wall and not on ground
             //turn of gravity and velocity
             if (onWall() && !isGrounded())
@@ -127,7 +142,7 @@ public class PlayerMovement : MonoBehaviour
             if (dirX == 0)
             {
                 //add a velocity to push player away from the wall
-                rb.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 7, 0);              
+                //rb.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 7, 0);              
                 //flip direction of player when jump off wall
                 transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x), transform.localScale.y, transform.localScale.z); 
             }
@@ -203,4 +218,9 @@ public class PlayerMovement : MonoBehaviour
         GameManager.score += 1;
     }
 
+    private void flip()
+    {
+        isFacingRight = !isFacingRight;
+        transform.Rotate(0f, 180f, 0f);
+    }
 }

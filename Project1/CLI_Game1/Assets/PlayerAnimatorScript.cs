@@ -13,29 +13,43 @@ public class PlayerAnimatorScript : MonoBehaviour
     private Color color; 
 
     bool isPlaying;
+    bool checkColor; 
 
-    private PlayerMovement player; 
+    private PlayerMovement player;
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
         player = GetComponent<PlayerMovement>();
-        color = player.spriteRenderer.color;
-        SetColor(jumpParticles);
-        SetColor(landParticles);
-        SetColor(launchParticles);
+    }
+    void Start()
+    {
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!checkColor)
+        {
+            color = player.selectColor;
+            SetColor(jumpParticles);
+            SetColor(landParticles);
+            SetColor(launchParticles);
+            checkColor = true;
+        }
+
+        
+
+
+
         //check if player is here
         if (player == null) return;
         //triger jump animation, stop land animation
+
         if (player.jumpThisFrame)
         {
             anim.SetTrigger(JumpKey);
             anim.ResetTrigger(GroundedKey);
-            isPlaying = false;
             jumpParticles.Play();
         }
         //triger land animation, stop jump animation
