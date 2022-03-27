@@ -93,6 +93,12 @@ public class GameManager : MonoBehaviour
         //reload level, and collect numbers back to orgin state, avoid repeat
         collect = startCollect;
     }
+    
+        public static void shortCut()
+    {
+        //reload transition level
+        SceneManager.LoadScene(4);
+    }
 
 
 }

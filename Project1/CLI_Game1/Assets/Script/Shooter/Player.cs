@@ -35,6 +35,7 @@ public class Player : MonoBehaviour
     {
         //player movement function
         Move();
+
     }
 
     void InitBounds()
@@ -72,4 +73,6 @@ public class Player : MonoBehaviour
             shooter.isFiring = value.isPressed;
         }
     }
+
+
 }

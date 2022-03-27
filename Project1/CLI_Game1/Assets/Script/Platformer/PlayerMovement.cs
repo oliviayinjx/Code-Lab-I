@@ -180,11 +180,18 @@ public class PlayerMovement : MonoBehaviour
         if (col.gameObject.layer == 10)
         {
             nextLevel();
+
         }
 
         if (col.gameObject.layer == 8) //ground
         {
             landThisFrame = true;
+        }
+
+        if (col.gameObject.tag == "Shortcut") //ground
+        {
+            GameManager.shortCut();
+
         }
     }
 

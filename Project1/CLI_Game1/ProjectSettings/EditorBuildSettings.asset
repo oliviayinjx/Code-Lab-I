@@ -18,8 +18,11 @@ EditorBuildSettings:
     path: Assets/Scenes/platformer/Level3.unity
     guid: 4777aafbcdaffa54dbcf476059725853
   - enabled: 1
-    path: Assets/Scenes/platformer/Transitation.unity
+    path: Assets/Scenes/platformer/Level 4.unity
     guid: 284818636c04d4753911e14d80a455c2
+  - enabled: 1
+    path: Assets/Scenes/Transition.unity
+    guid: 2402baf892ad144228b5dd9b480d2130
   - enabled: 1
     path: Assets/Scenes/Shooter/LaserLevel1.unity
     guid: ce45aef5e6a9c4e6b8239e4dd2af4c87

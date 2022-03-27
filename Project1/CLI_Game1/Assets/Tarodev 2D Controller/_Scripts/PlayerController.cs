@@ -41,7 +41,7 @@ namespace TarodevController {
             CalculateGravity(); // Vertical movement
             CalculateJump(); // Possibly overrides vertical
 
-            MoveCharacter(); // Actually perform the axis movement
+            MoveCharacter(); // Actually perform the axis movemen
         }
 
 

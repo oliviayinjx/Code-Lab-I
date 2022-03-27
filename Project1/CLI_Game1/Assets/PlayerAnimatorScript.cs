@@ -29,6 +29,8 @@ public class PlayerAnimatorScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+
         if (!checkColor)
         {
             color = player.selectColor;
