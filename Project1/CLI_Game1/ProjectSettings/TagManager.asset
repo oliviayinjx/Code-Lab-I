@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - Orange
   - Blue
+  - Shortcut
   layers:
   - Default
   - TransparentFX
