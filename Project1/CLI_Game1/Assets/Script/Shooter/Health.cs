@@ -7,7 +7,7 @@ public class Health : MonoBehaviour
 {
     [SerializeField] int health = 50;
     [SerializeField] bool isPlayer;
-    public GameObject gameDesigner; 
+    public GameObject[] gameDesigner; 
     //damage dealer and reduce health by damage amount
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -55,7 +55,9 @@ public class Health : MonoBehaviour
         {
             if(SceneManager.GetActiveScene().name == "End")
             {
-                gameDesigner.GetComponent <SpriteRenderer>().enabled = true; 
+                gameDesigner[0].GetComponent <SpriteRenderer>().enabled = true;
+                gameDesigner[1].GetComponent<SpriteRenderer>().enabled = true;
+                gameDesigner[2].GetComponent<SpriteRenderer>().enabled = false;
             }
             else
             {
