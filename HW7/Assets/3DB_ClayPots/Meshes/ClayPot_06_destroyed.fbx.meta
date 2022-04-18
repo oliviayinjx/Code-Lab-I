@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: e85eb130fb7d6554d944cab67e6947ea
+timeCreated: 1487964703
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ClayPot_06_cell.001
+    100002: ClayPot_06_cell.007
+    100004: ClayPot_06_cell.013
+    100006: ClayPot_06_cell.022
+    100008: ClayPot_06_cell.023
+    100010: ClayPot_06_cell.024
+    100012: ClayPot_06_cell.025
+    100014: ClayPot_06_cell.026
+    100016: ClayPot_06_cell.027
+    100018: ClayPot_06_cell.028
+    100020: ClayPot_06_cell.029
+    100022: ClayPot_06_cell.030
+    100024: ClayPot_06_cell.031
+    100026: ClayPot_06_cell.032
+    100028: ClayPot_06_cell.033
+    100030: ClayPot_06_cell.034
+    100032: //RootNode
+    400000: ClayPot_06_cell.001
+    400002: ClayPot_06_cell.007
+    400004: ClayPot_06_cell.013
+    400006: ClayPot_06_cell.022
+    400008: ClayPot_06_cell.023
+    400010: ClayPot_06_cell.024
+    400012: ClayPot_06_cell.025
+    400014: ClayPot_06_cell.026
+    400016: ClayPot_06_cell.027
+    400018: ClayPot_06_cell.028
+    400020: ClayPot_06_cell.029
+    400022: ClayPot_06_cell.030
+    400024: ClayPot_06_cell.031
+    400026: ClayPot_06_cell.032
+    400028: ClayPot_06_cell.033
+    400030: ClayPot_06_cell.034
+    400032: //RootNode
+    2300000: ClayPot_06_cell.001
+    2300002: ClayPot_06_cell.007
+    2300004: ClayPot_06_cell.013
+    2300006: ClayPot_06_cell.022
+    2300008: ClayPot_06_cell.023
+    2300010: ClayPot_06_cell.024
+    2300012: ClayPot_06_cell.025
+    2300014: ClayPot_06_cell.026
+    2300016: ClayPot_06_cell.027
+    2300018: ClayPot_06_cell.028
+    2300020: ClayPot_06_cell.029
+    2300022: ClayPot_06_cell.030
+    2300024: ClayPot_06_cell.031
+    2300026: ClayPot_06_cell.032
+    2300028: ClayPot_06_cell.033
+    2300030: ClayPot_06_cell.034
+    3300000: ClayPot_06_cell.001
+    3300002: ClayPot_06_cell.007
+    3300004: ClayPot_06_cell.013
+    3300006: ClayPot_06_cell.022
+    3300008: ClayPot_06_cell.023
+    3300010: ClayPot_06_cell.024
+    3300012: ClayPot_06_cell.025
+    3300014: ClayPot_06_cell.026
+    3300016: ClayPot_06_cell.027
+    3300018: ClayPot_06_cell.028
+    3300020: ClayPot_06_cell.029
+    3300022: ClayPot_06_cell.030
+    3300024: ClayPot_06_cell.031
+    3300026: ClayPot_06_cell.032
+    3300028: ClayPot_06_cell.033
+    3300030: ClayPot_06_cell.034
+    4300000: ClayPot_06_cell.034
+    4300002: ClayPot_06_cell.030
+    4300004: ClayPot_06_cell.023
+    4300006: ClayPot_06_cell.013
+    4300008: ClayPot_06_cell.001
+    4300010: ClayPot_06_cell.033
+    4300012: ClayPot_06_cell.032
+    4300014: ClayPot_06_cell.031
+    4300016: ClayPot_06_cell.029
+    4300018: ClayPot_06_cell.028
+    4300020: ClayPot_06_cell.027
+    4300022: ClayPot_06_cell.026
+    4300024: ClayPot_06_cell.025
+    4300026: ClayPot_06_cell.024
+    4300028: ClayPot_06_cell.022
+    4300030: ClayPot_06_cell.007
+    6400000: ClayPot_06_cell.001
+    6400002: ClayPot_06_cell.007
+    6400004: ClayPot_06_cell.013
+    6400006: ClayPot_06_cell.022
+    6400008: ClayPot_06_cell.023
+    6400010: ClayPot_06_cell.024
+    6400012: ClayPot_06_cell.025
+    6400014: ClayPot_06_cell.026
+    6400016: ClayPot_06_cell.027
+    6400018: ClayPot_06_cell.028
+    6400020: ClayPot_06_cell.029
+    6400022: ClayPot_06_cell.030
+    6400024: ClayPot_06_cell.031
+    6400026: ClayPot_06_cell.032
+    6400028: ClayPot_06_cell.033
+    6400030: ClayPot_06_cell.034
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
