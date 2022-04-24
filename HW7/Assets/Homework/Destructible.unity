@@ -485,7 +485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sphereRadius: 0
   zOffset: 0
-  waterObject: {fileID: 3366739773015021322, guid: e6a11d68d829e49c8bba72b10e03f6d1, type: 3}
+  waterObject: {fileID: 3366739773015021322, guid: bf0f6aeff977a468fbb460c4176a7ed8, type: 3}
 --- !u!114 &1511391555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -537,7 +537,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!135 &2146435822
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1200,6 +1200,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4283276271510145}
+  - component: {fileID: 1947676701074485}
   - component: {fileID: 33634997699813133}
   - component: {fileID: 23493615718956545}
   - component: {fileID: 64400485256226095}
@@ -1225,6 +1226,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnCollision: 1
   DestroyedPrefab: {fileID: 1757950223588088, guid: c0f56307cb5b5534e8a24846b2d31fa7, type: 3}
+--- !u!114 &1947676701074485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947676701074483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 933eb35b6fd004784820eaf4ae0021b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &4061706095672595
 Transform:
   m_ObjectHideFlags: 0

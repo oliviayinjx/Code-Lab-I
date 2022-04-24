@@ -8,6 +8,7 @@ public class WaterJet : MonoBehaviour
     public float zOffset = 10f;
     public GameObject waterObject;
     private ParticleSystem water;
+    ParticleSystem waterInstance;
 
 
 
@@ -66,9 +67,9 @@ public class WaterJet : MonoBehaviour
         waterObject.transform.localRotation = rotation;
         water = waterObject.GetComponent<ParticleSystem>();
         //spawn a new particle
-        ParticleSystem waterInstance = Instantiate(water);
+        waterInstance = Instantiate(water);
         //destory after 1s
-        Destroy(waterInstance, 1f);
+        Destroy(waterInstance,1f);
     }
 
 }
