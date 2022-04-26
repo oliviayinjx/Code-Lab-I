@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float walkSpeed = 6.0f;
     //gavity value
     [SerializeField] float gravity = -13.0f;
+    //jump
+    [SerializeField] float jumpHeight = 3f;
     //movement smooth out
     [SerializeField] [Range(0.0f,0.5f)] float moveSmoothTime = 0.3f;
     [SerializeField] [Range(0.0f, 0.5f)] float mouseSmoothTime = 0.03f;
@@ -49,6 +51,7 @@ public class PlayerController : MonoBehaviour
     {
         updateCameraLook();
         UpdateMovement();
+
     }
 
     //player camera rotation
@@ -70,22 +73,35 @@ public class PlayerController : MonoBehaviour
 
     void UpdateMovement()
     {
-        Vector2 targetDir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        //diagnal also move in same speed
-        targetDir.Normalize();
-
-        currentDir = Vector2.SmoothDamp(currentDir, targetDir, ref currentDirVelocity, moveSmoothTime);
-
-        //gravity factor calculation
+        //grounded movement
         if (controller.isGrounded)
         {
-            velocityY = 0.0f;
+            Vector2 targetDir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+            //diagnal also move in same speed
+            targetDir.Normalize();
+
+            currentDir = Vector2.SmoothDamp(currentDir, targetDir, ref currentDirVelocity, moveSmoothTime);
+
+            //jump
+            if (Input.GetButtonDown("Jump"))
+            {
+                Jump();
+            }
         }
-        //decreasing as dropping
-        velocityY += gravity * Time.deltaTime;
+        else
+        {
+            //decreasing as dropping
+            velocityY += gravity * Time.deltaTime;
+        }
+
         //velocity 
         Vector3 velocity = (transform.forward * currentDir.y + transform.right * currentDir.x) * walkSpeed + Vector3.up * velocityY;
 
         controller.Move(velocity * Time.deltaTime);     
+    }
+
+    void Jump()
+    {
+        velocityY = Mathf.Sqrt(jumpHeight * -2f * gravity);
     }
 }
