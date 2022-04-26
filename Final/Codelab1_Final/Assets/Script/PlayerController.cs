@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Player Movement")]
+    //get player camera
     [SerializeField] Transform playerCamera = null;
+    //move speed
     [SerializeField] float mouseSensitivity = 3.5f;
+    //not show cursor
     [SerializeField] bool lockCursor = true;
+    //moving speed
     [SerializeField] float walkSpeed = 6.0f;
+    //gavity value
     [SerializeField] float gravity = -13.0f;
+    //movement smooth out
     [SerializeField] [Range(0.0f,0.5f)] float moveSmoothTime = 0.3f;
     [SerializeField] [Range(0.0f, 0.5f)] float mouseSmoothTime = 0.03f;
 
@@ -21,7 +28,7 @@ public class PlayerController : MonoBehaviour
 
     Vector2 currentDir = Vector2.zero;
     Vector2 currentDirVelocity = Vector2.zero;
-
+    //
     Vector2 currentMouseDelta = Vector2.zero;
     Vector2 currentMouseDeltaVelocity = Vector2.zero;
 
@@ -44,6 +51,7 @@ public class PlayerController : MonoBehaviour
         UpdateMovement();
     }
 
+    //player camera rotation
     void updateCameraLook()
     {
         Vector2 targetMouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
@@ -68,18 +76,16 @@ public class PlayerController : MonoBehaviour
 
         currentDir = Vector2.SmoothDamp(currentDir, targetDir, ref currentDirVelocity, moveSmoothTime);
 
+        //gravity factor calculation
         if (controller.isGrounded)
         {
             velocityY = 0.0f;
         }
+        //decreasing as dropping
         velocityY += gravity * Time.deltaTime;
-
+        //velocity 
         Vector3 velocity = (transform.forward * currentDir.y + transform.right * currentDir.x) * walkSpeed + Vector3.up * velocityY;
 
-        controller.Move(velocity * Time.deltaTime);
-
-
-
-          
+        controller.Move(velocity * Time.deltaTime);     
     }
 }
