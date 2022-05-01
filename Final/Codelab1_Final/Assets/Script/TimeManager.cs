@@ -20,6 +20,11 @@ public class TimeManager : MonoBehaviour
     float waterInterval = 20f;
     bool waterRefill = false;
 
+
+    [Header("Restroom")]
+    float cleanInterval = 60f;
+    bool cleaned = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -56,6 +61,20 @@ public class TimeManager : MonoBehaviour
         else if (Mathf.Round(dayTimer) % waterInterval == 2)
         {
             waterRefill = false;
+        }
+
+        if (Mathf.Round(dayTimer) % cleanInterval == 0 && !cleaned)
+        {
+            cleaned = true;
+
+            GameObject[] destroyObject;
+            destroyObject = GameObject.FindGameObjectsWithTag("Poop");
+            foreach (GameObject oneObject in destroyObject)
+                Destroy(oneObject);
+        }
+        else if (Mathf.Round(dayTimer) % cleanInterval == 2)
+        {
+            cleaned = false;
         }
 
 

@@ -10,13 +10,38 @@ public class Interaction : MonoBehaviour
     GameObject heldObj;
     Vector3 objOriginalPos;
 
+    [Header("Drinker")]
     public GameObject drinker;
     float drinkTimer = 5f;
     bool drinkWater = false;
 
+    [Header("Reference")]
     [SerializeField]
-    Transform reference; 
+    Transform pickupRef;
+    [SerializeField]
+    Transform dropoffRef;
+    [SerializeField]
+    float dropOffHeight = 1.35f;
 
+    [Header("Restroom")]
+    [SerializeField]
+    GameObject poopMesh;
+    public GameObject restroom;
+    public GameObject pops;
+    float poopTimer = 5f;
+    bool pooped = false;
+
+
+    private GameObject _mainCamera;
+
+    private void Awake()
+    {
+        // get a reference to our main camera
+        if (_mainCamera == null)
+        {
+            _mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
+        }
+    }
 
 
     // Start is called before the first frame update
@@ -38,11 +63,21 @@ public class Interaction : MonoBehaviour
                 drinkTimer = 5f; 
             }
         }
+
+        if(pooped)
+        {
+            poopTimer -= Time.deltaTime;
+            if (poopTimer <= 0)
+            {
+                pooped = false;
+                poopTimer = 3f;
+            }
+        }
     }
 
     void cursorClick()
     {
-        Vector3 eyePosition = transform.position;
+        Vector3 eyePosition = _mainCamera.transform.position;
         Vector3 mousePos = Input.mousePosition;
         mousePos.z = Camera.main.nearClipPlane;
         Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(mousePos);
@@ -109,26 +144,40 @@ public class Interaction : MonoBehaviour
         objOriginalPos = obj.transform.position;
         obj.transform.SetParent(gameObject.transform);
 
-        Vector3 newPos = reference.transform.position;
+        Vector3 newPos = pickupRef.transform.position;
         obj.transform.position = newPos;
     }
 
     void DropObject()
     {
         heldObj.transform.SetParent(null);
-        heldObj.transform.position = objOriginalPos;
+        heldObj.transform.position = new Vector3 (dropoffRef.transform.position.x, dropOffHeight, dropoffRef.transform.position.z);
 
         objOriginalPos = Vector3.zero;
         heldObj = null;
     }
 
-    //private void OntriggerEnter(Collider other)
-    //{
-    //    Debug.Log("FIND");
-    //    if (Input.GetKeyDown(KeyCode.F) && other.gameObject.tag == "Food")
-    //    {
-    //        Debug.Log("EAT");
-    //        Destroy(other.gameObject);
-    //    }
-    //}
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject.tag == "Restroom" && !pooped)
+        {
+            pooped = true;
+
+            int rand = Random.Range(0, 2);
+
+            switch (rand)
+            {
+                case 0:
+                    Instantiate(poopMesh, dropoffRef.transform.position, Quaternion.identity);
+                    Debug.Log("poop");
+                    break;
+                case 1:
+
+                    break;
+            }
+
+
+
+        }
+    }
 }
