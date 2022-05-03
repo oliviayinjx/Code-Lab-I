@@ -121,9 +121,10 @@ public class Interaction : MonoBehaviour
                     if (!drinkWater)
                     {
                         drinkWater = true;
+                        float xzSize = drinker.transform.localScale.x;
                         float ySize = drinker.transform.localScale.y;
                         ySize -= 0.2f;
-                        drinker.transform.localScale = new Vector3(1, ySize, 1);
+                        drinker.transform.localScale = new Vector3(xzSize, ySize, xzSize);
                     }
                 }
 

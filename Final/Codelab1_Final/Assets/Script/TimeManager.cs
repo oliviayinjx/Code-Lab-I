@@ -54,7 +54,7 @@ public class TimeManager : MonoBehaviour
         {
             Debug.Log("give water");
             waterRefill = true;
-            drinker.transform.localScale = new Vector3(1, 1, 1);
+            drinker.transform.localScale = new Vector3(0.1839385f, 1, 0.1839385f);
 
 
         }
