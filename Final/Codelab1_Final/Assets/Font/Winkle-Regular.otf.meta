@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 8828f847017f94c27831999e15cef3c5
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Winkle
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a59520ec1cc554889bc87e610f69fe65, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -22,100 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54372
+54017
 Successfully changed project path to: /Users/oliviayinjx/Documents/GitHub/Code-Lab-I/Final/Codelab1_Final
 /Users/oliviayinjx/Documents/GitHub/Code-Lab-I/Final/Codelab1_Final
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 71.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 74.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/oliviayinjx/Documents/GitHub/Code-Lab-I/Final/Codelab1_Final/Assets
 GfxDevice: creating device client; threaded=0
-2022-05-03 14:00:42.556 Unity[16024:540713] (null) preferred device: Apple M1 (high power)
-2022-05-03 14:00:42.556 Unity[16024:540713] Metal devices available: 1
-2022-05-03 14:00:42.556 Unity[16024:540713] 0: Apple M1 (high power)
-2022-05-03 14:00:42.557 Unity[16024:540713] Using device Apple M1 (high power)
+2022-05-04 15:34:47.838 Unity[28198:990686] (null) preferred device: Apple M1 (high power)
+2022-05-04 15:34:47.838 Unity[28198:990686] Metal devices available: 1
+2022-05-04 15:34:47.838 Unity[28198:990686] 0: Apple M1 (high power)
+2022-05-04 15:34:47.838 Unity[28198:990686] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56198
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001092 seconds.
+Registered in 0.001476 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 65.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 66.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.734 seconds
+- Completed reload, in  1.790 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1735ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (1791ms)
+		BeginReloadAssembly (127ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1484ms)
-			LoadAssemblies (104ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1505ms)
+			LoadAssemblies (124ms)
 			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (194ms)
+			SetupTypeCache (197ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (843ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (865ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (66ms)
-				BeforeProcessingInitializeOnLoad (134ms)
-				ProcessInitializeOnLoadAttributes (473ms)
-				ProcessInitializeOnLoadMethodAttributes (152ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (489ms)
+				ProcessInitializeOnLoadMethodAttributes (148ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004618 seconds.
+Registered in 0.006616 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 72.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 69.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.572 seconds
+- Completed reload, in  3.748 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3575ms)
-		BeginReloadAssembly (318ms)
+	ReloadAssembly (3751ms)
+		BeginReloadAssembly (332ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (36ms)
+			DisableScriptedObjects (35ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (53ms)
-		EndReloadAssembly (3140ms)
-			LoadAssemblies (275ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (3292ms)
+			LoadAssemblies (312ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (481ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (1879ms)
+			SetupTypeCache (592ms)
+			ReleaseScriptCaches (22ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (1779ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (72ms)
-				BeforeProcessingInitializeOnLoad (282ms)
-				ProcessInitializeOnLoadAttributes (1467ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (299ms)
+				ProcessInitializeOnLoadAttributes (1349ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (37ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.007538 seconds.
+Validating Project structure ... 0.007368 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.016215 seconds.
+Upgrading shader files ...0.021886 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -125,18 +125,18 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3725 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 296.1 MB.
-System memory in use after: 295.8 MB.
+System memory in use before: 297.4 MB.
+System memory in use after: 297.1 MB.
 
 Unloading 205 unused Assets to reduce memory usage. Loaded Objects now: 4250.
-Total: 4.450417 ms (FindLiveObjects: 0.269667 ms CreateObjectMapping: 0.121083 ms MarkObjects: 3.677458 ms  DeleteObjects: 0.380666 ms)
+Total: 11.295250 ms (FindLiveObjects: 0.231084 ms CreateObjectMapping: 0.102959 ms MarkObjects: 10.616625 ms  DeleteObjects: 0.343375 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -150,208 +150,1768 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/StarterAssets/Readme.asset
-  artifactKey: Guid(4181bfe715a83e843b7538d750dc57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Readme.asset using Guid(4181bfe715a83e843b7538d750dc57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5522068d9ad86b9bcd6b2fb8920f8a2') in 0.906426 seconds 
-  Import took 0.917043 seconds .
+  path: Assets/hamsterRamp.fbx
+  artifactKey: Guid(9e1e0471690f940feb2c5ab4c276ba27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hamsterRamp.fbx using Guid(9e1e0471690f940feb2c5ab4c276ba27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e492d7ebde4377317549cda5047b2a') in 1.747973 seconds 
+  Import took 1.764859 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4276.893027 seconds.
-  path: Assets/Models/hamsterBathroom.fbx
-  artifactKey: Guid(ce9e8c1eccbc74aa0b408ccccfe38d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/hamsterBathroom.fbx using Guid(ce9e8c1eccbc74aa0b408ccccfe38d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04bfa5030508e4e92f25825745c02bf') in 1.647988 seconds 
-  Import took 1.770734 seconds .
+  Time since last request: 296.764093 seconds.
+  path: Assets/Models/hamsterRamp2.fbx
+  artifactKey: Guid(00be067c0be674be7935a7eed6cd041a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/hamsterRamp2.fbx using Guid(00be067c0be674be7935a7eed6cd041a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e9cbb4423927f1d4cc64f3d8c1f909') in 0.208599 seconds 
+  Import took 0.262581 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000863 seconds.
-  path: Assets/Models/hamsterHouse.fbx
-  artifactKey: Guid(d8df8b189159948239b48d0a60c9a829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/hamsterHouse.fbx using Guid(d8df8b189159948239b48d0a60c9a829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ba4850f52b0e343cfa0ef1398637c9') in 0.048016 seconds 
-  Import took 0.055629 seconds .
+  Time since last request: 51.544592 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/ColorControlView.uss
+  artifactKey: Guid(4b038bc8dced2a440bc294aeff20a4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/ColorControlView.uss using Guid(4b038bc8dced2a440bc294aeff20a4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14edb4d28e0d896e526ce222d7cfbe30') in 0.663073 seconds 
+  Import took 0.689172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.372894 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Resources/Styles/ColorMode.uss
+  artifactKey: Guid(d9a970c4d408c408b888ee0caa8403eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Resources/Styles/ColorMode.uss using Guid(d9a970c4d408c408b888ee0caa8403eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e39fd3db3d7d5e63915f779447c0e5c') in 0.007725 seconds 
+  Import took 0.019635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.502861 seconds.
+  path: Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/ColorRGBASlotControlView.uss
+  artifactKey: Guid(a690636bb8883ea4db5f27192551b973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/ColorRGBASlotControlView.uss using Guid(a690636bb8883ea4db5f27192551b973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73972a8f86377ff50be25b39a139de32') in 0.009074 seconds 
+  Import took 0.027845 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000225 seconds.
-  path: Assets/Models/hamsterCoconut.fbx
-  artifactKey: Guid(7a8b82d0f93c648e99dcb92ed169fc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/hamsterCoconut.fbx using Guid(7a8b82d0f93c648e99dcb92ed169fc6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1ec2e683241606600065bb8ec0342c') in 0.020000 seconds 
-  Import took 0.027686 seconds .
+  path: Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/ColorRGBSlotControlView.uss
+  artifactKey: Guid(5f9f1162b05e46646805842469135609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.shadergraph/Editor/Resources/Styles/Controls/ColorRGBSlotControlView.uss using Guid(5f9f1162b05e46646805842469135609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9279994a9696e72454a8b03d656de3') in 0.002474 seconds 
+  Import took 0.008008 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 176.618933 seconds.
-  path: Assets/Models/hamsterBathroom2.fbx
-  artifactKey: Guid(02adacbf0b43440fdb1eed2a91bbe512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/hamsterBathroom2.fbx using Guid(02adacbf0b43440fdb1eed2a91bbe512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80f459ec0be481830afaf0233df63fd') in 0.216757 seconds 
-  Import took 0.233950 seconds .
+  Time since last request: 0.079196 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuho.png
+  artifactKey: Guid(3a0c527d7f890d64a9b56b086e6e766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuho.png using Guid(3a0c527d7f890d64a9b56b086e6e766a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80895f344835af029634886f2731c59') in 0.943523 seconds 
+  Import took 0.955288 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 111.925644 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Eye_Off.png
-  artifactKey: Guid(ed0f7a8b882ee4f6abefc9996d60afc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Eye_Off.png using Guid(ed0f7a8b882ee4f6abefc9996d60afc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78de65d35e519babafe4e2282596c515') in 0.669663 seconds 
-  Import took 0.704588 seconds .
+  Time since last request: 0.000400 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhoshe.png
+  artifactKey: Guid(a04ecc9d5e12d5d449077414eb86635e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhoshe.png using Guid(a04ecc9d5e12d5d449077414eb86635e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa68d0e664d852ab005e84488767f98') in 0.022245 seconds 
+  Import took 0.027816 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Eye_Off_Light.png
-  artifactKey: Guid(20d44a66b868d48ed8ec4ac8700c1807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Eye_Off_Light.png using Guid(20d44a66b868d48ed8ec4ac8700c1807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33df38f66016df2f77ddac0f9fe8d717') in 0.010923 seconds 
-  Import took 0.017646 seconds .
+  Time since last request: 0.000204 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhoshechristmas.png
+  artifactKey: Guid(ec03f79379868c642b48ae5ddc821b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhoshechristmas.png using Guid(ec03f79379868c642b48ae5ddc821b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fb8f6d8e5127b3f06fcd017f91bda9') in 0.026567 seconds 
+  Import took 0.039356 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions
-  artifactKey: Guid(ca9f5fa95ffab41fb9a615ab714db018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Plugins/PlayerInput/DefaultInputActions.inputactions using Guid(ca9f5fa95ffab41fb9a615ab714db018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2418dfa4a6593776bfec4439893fce1') in 0.168774 seconds 
-  Import took 0.177826 seconds .
+  Time since last request: 0.000296 seconds.
+  path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUI Color.prefab
+  artifactKey: Guid(77c185820dd1a464eac89cae3abccddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets/DebugUI Color.prefab using Guid(77c185820dd1a464eac89cae3abccddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161f45193e8a1024ec971ac1913dd1cc') in 0.177245 seconds 
+  Import took 0.186033 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/HistoryEntryComponent.uxml
-  artifactKey: Guid(210e50e15b80af044a15718d78f5388a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Layouts/HistoryEntryComponent.uxml using Guid(210e50e15b80af044a15718d78f5388a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2acc4e7fd5196ec675fb7787bca1136') in 0.108046 seconds 
-  Import took 0.117181 seconds .
+  Time since last request: 0.000266 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhochristmas.png
+  artifactKey: Guid(fd098fb4cf57bad419701c802e442b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_colorbuhochristmas.png using Guid(fd098fb4cf57bad419701c802e442b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c353808c1de735bbcfcc352f30518c') in 0.014045 seconds 
+  Import took 0.020904 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Styles/HistoryEntryComponent.uss
-  artifactKey: Guid(60eaebd1e96ce8641b789b30cdcda09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Styles/HistoryEntryComponent.uss using Guid(60eaebd1e96ce8641b789b30cdcda09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b02fa5e22d1dd9b24df18925fe84648') in 0.102784 seconds 
-  Import took 0.112181 seconds .
+  Time since last request: 57.328779 seconds.
+  path: Assets/Materials/Glass.mat
+  artifactKey: Guid(81a7f397f870346f695ea6bc749e8062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Glass.mat using Guid(81a7f397f870346f695ea6bc749e8062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d3795a953a3369fc1abbc54cd64e50') in 0.444148 seconds 
+  Import took 0.495434 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/MultiplayerEventSystem@64.png
-  artifactKey: Guid(6a237171e2346e3458db37eb0f90d42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/MultiplayerEventSystem@64.png using Guid(6a237171e2346e3458db37eb0f90d42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3932eb665a9b5a9baedf0d172254f7') in 0.007559 seconds 
-  Import took 0.015736 seconds .
+  Time since last request: 3.942656 seconds.
+  path: Assets/Materials/Color6 1.mat
+  artifactKey: Guid(be125d0f2f5c34b5182f0aad2d9966c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Color6 1.mat using Guid(be125d0f2f5c34b5182f0aad2d9966c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fee5cf88cfbfb6436f2f11468c25742') in 0.038434 seconds 
+  Import took 0.047779 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Eye_On.png
-  artifactKey: Guid(b6d07916b2876498ebc65ab5a16ed9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Eye_On.png using Guid(b6d07916b2876498ebc65ab5a16ed9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae22060c31c9e24a9e10087e47b9fb2') in 0.006784 seconds 
-  Import took 0.015142 seconds .
+  Time since last request: 5.373642 seconds.
+  path: Assets/Materials/Brown.mat
+  artifactKey: Guid(be125d0f2f5c34b5182f0aad2d9966c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Brown.mat using Guid(be125d0f2f5c34b5182f0aad2d9966c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a1eb272f72e6a4a38b33e42d973e70') in 0.046515 seconds 
+  Import took 0.081731 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Eye_On_Light.png
-  artifactKey: Guid(dbc263b202df744759ce4e89d5de7a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Eye_On_Light.png using Guid(dbc263b202df744759ce4e89d5de7a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4fe4bdcc41131e4ffd7d27b1b7b47f7') in 0.005903 seconds 
-  Import took 0.013418 seconds .
+  Time since last request: 1692.645211 seconds.
+  path: Assets/Models/hamsterCoconut2.fbx
+  artifactKey: Guid(b319f56f24d134014b48f3c5c8fcc476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/hamsterCoconut2.fbx using Guid(b319f56f24d134014b48f3c5c8fcc476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3461cf947c5d71106c02818c7bc4be') in 0.499522 seconds 
+  Import took 0.626288 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/StarterAssets/InputSystem/StarterAssets.inputactions
-  artifactKey: Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/InputSystem/StarterAssets.inputactions using Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696d724c58ab47e94fac6819b760adc4') in 0.005723 seconds 
-  Import took 0.012530 seconds .
+  Time since last request: 55.544981 seconds.
+  path: Assets/Materials/Brown 1.mat
+  artifactKey: Guid(a313a5bc7fd054c0495398e2b27008da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Brown 1.mat using Guid(a313a5bc7fd054c0495398e2b27008da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ef3f6d91e9d4244ec75f92312b27b5') in 0.048718 seconds 
+  Import took 0.077802 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.086960 seconds.
-  path: Assets/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx
-  artifactKey: Guid(7e0223e1d3e1733499accfa5ebffb67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx using Guid(7e0223e1d3e1733499accfa5ebffb67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb33f4da2b5c87b5dcd7da9370cfd20') in 0.107648 seconds 
-  Import took 0.117183 seconds .
+  Time since last request: 0.000365 seconds.
+  path: Assets/Materials/Brown.mat
+  artifactKey: Guid(be125d0f2f5c34b5182f0aad2d9966c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Brown.mat using Guid(be125d0f2f5c34b5182f0aad2d9966c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d9dc7878c683df6c70fb8c7b0e6926') in 0.010487 seconds 
+  Import took 0.017460 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/FlatKit/Demos/URP Configs/[FlatKit] Room-FogSettings.asset
-  artifactKey: Guid(7fcd7272032564480bf0f1b9411dc317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/URP Configs/[FlatKit] Room-FogSettings.asset using Guid(7fcd7272032564480bf0f1b9411dc317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8855fc3266ad343d77082864101bbe27') in 0.006202 seconds 
-  Import took 0.013176 seconds .
+  Time since last request: 6.390451 seconds.
+  path: Assets/Materials/White.mat
+  artifactKey: Guid(a313a5bc7fd054c0495398e2b27008da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/White.mat using Guid(a313a5bc7fd054c0495398e2b27008da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8ed50942dcabdcd272a08d07ab26a9') in 0.052185 seconds 
+  Import took 0.113037 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/StarterAssets/Environment/Art/Models/Ramp_Mesh.fbx
-  artifactKey: Guid(426a2785f8a940049aac2c246661cf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Art/Models/Ramp_Mesh.fbx using Guid(426a2785f8a940049aac2c246661cf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37eecddb4bec626904f43e3b2f9a01d5') in 0.021355 seconds 
-  Import took 0.028039 seconds .
+  Time since last request: 38.555851 seconds.
+  path: Assets/Models/Sunflower seed/Sunflower Seed.prefab
+  artifactKey: Guid(fdc0ddf34cc7246e2890774d3ef13778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sunflower seed/Sunflower Seed.prefab using Guid(fdc0ddf34cc7246e2890774d3ef13778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62fc96d2b5771d487d103ed700c372bb') in 0.056482 seconds 
+  Import took 0.086223 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx
-  artifactKey: Guid(fce3bf5a5b603db45ab0048fb6ab44df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx using Guid(fce3bf5a5b603db45ab0048fb6ab44df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a578d2074f46b96c5b90a7d7a8d3aec0') in 0.033676 seconds 
-  Import took 0.041519 seconds .
+  Time since last request: 37.970008 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Cherries.mat
+  artifactKey: Guid(3f1e61b4dccb94123bd7e14d4994187d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Cherries.mat using Guid(3f1e61b4dccb94123bd7e14d4994187d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a8c9e69ffc258d1e57dd251445c8ab') in 0.843663 seconds 
+  Import took 0.878032 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/FlatKit/Demos/URP Configs/[FlatKit] Valley-FogSettings.asset
-  artifactKey: Guid(27461652cd09d439892b599fddb40841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/URP Configs/[FlatKit] Valley-FogSettings.asset using Guid(27461652cd09d439892b599fddb40841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f05646390bd434efa85548689b9c47') in 0.002381 seconds 
-  Import took 0.014491 seconds .
+  Time since last request: 0.000254 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Banana_CelStepTexture-ramp.png
+  artifactKey: Guid(0484f26fbec4c4e228e44ff699ade550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Banana_CelStepTexture-ramp.png using Guid(0484f26fbec4c4e228e44ff699ade550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f798415a42317d1701b2c2a9e85c3964') in 0.031799 seconds 
+  Import took 0.039678 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png
-  artifactKey: Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png using Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50796f2db74ea8fb0b395b27ee137946') in 0.006068 seconds 
-  Import took 0.011263 seconds .
+  Time since last request: 0.000734 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/FV-Scene-4-Ramps/4-Apple_CelCurveTexture-ramp.png
+  artifactKey: Guid(817ba2a712291410fba0b852211aa67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/FV-Scene-4-Ramps/4-Apple_CelCurveTexture-ramp.png using Guid(817ba2a712291410fba0b852211aa67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6db3d6ae4f2e5e665b938d222f8f6a') in 0.016813 seconds 
+  Import took 0.038111 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/FlatKit/Demos/URP Configs/[FlatKit] FruitVaseScene-Var-OutlineSettings.asset
-  artifactKey: Guid(cc996c96443b6401080cd0f127ea39c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/URP Configs/[FlatKit] FruitVaseScene-Var-OutlineSettings.asset using Guid(cc996c96443b6401080cd0f127ea39c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6ac7eee7acd618fcb7567fdc5daa3b') in 0.002398 seconds 
-  Import took 0.006682 seconds .
+  Time since last request: 0.000526 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Vase_CelStepTexture-ramp.png
+  artifactKey: Guid(98436fad2f42d43a089781f560f8d67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Vase_CelStepTexture-ramp.png using Guid(98436fad2f42d43a089781f560f8d67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4194845d23e3f8094e4ad822a727dcf') in 0.015296 seconds 
+  Import took 0.034709 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png
-  artifactKey: Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png using Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b19a01605a081c297f2136eaa382435') in 0.005629 seconds 
-  Import took 0.011079 seconds .
+  Time since last request: 0.000248 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Apple_CelStepTexture-ramp.png
+  artifactKey: Guid(78c2d841021c84ed1aa5eb3e478ff412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Apple_CelStepTexture-ramp.png using Guid(78c2d841021c84ed1aa5eb3e478ff412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c39cc791af4fc40f83c77fad0d9023d') in 0.010661 seconds 
+  Import took 0.017293 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png
-  artifactKey: Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png using Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb27c4692798708e31ba96976c526fff') in 0.006096 seconds 
-  Import took 0.011492 seconds .
+  Time since last request: 0.000166 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/BlPrMugs-Scene_2_RampTextures/02.2-BlueprintGrid-Mug-14_CelStepTexture-ramp.png
+  artifactKey: Guid(953f01b1bb2df4bd29ea2cbb2576b45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/BlPrMugs-Scene_2_RampTextures/02.2-BlueprintGrid-Mug-14_CelStepTexture-ramp.png using Guid(953f01b1bb2df4bd29ea2cbb2576b45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd231333ae138299b2903cef328fa659c') in 0.009921 seconds 
+  Import took 0.016423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Pear1_CelStepTexture-ramp.png
+  artifactKey: Guid(cc9f2af42e938436e8f03a750f57987a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Pear1_CelStepTexture-ramp.png using Guid(cc9f2af42e938436e8f03a750f57987a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e292f4fcef69fd42cd772e1af85a9a8a') in 0.006940 seconds 
+  Import took 0.013361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/FV-Scene-4-Ramps/4-Cherries_CelCurveTexture-ramp.png
+  artifactKey: Guid(ba4b66e1ec3d442d09e861e0914cc698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/FV-Scene-4-Ramps/4-Cherries_CelCurveTexture-ramp.png using Guid(ba4b66e1ec3d442d09e861e0914cc698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a41fff6293eb7158a02ee8fd9a4d153') in 0.007297 seconds 
+  Import took 0.013995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/BlPrMugs-Scene_2_RampTextures/02.2-BlueprintGrid-Mug-8_CelCurveTexture-ramp.png
+  artifactKey: Guid(f18f259c2f45e489e9380c0a7c425d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/BlPrMugs-Scene_2_RampTextures/02.2-BlueprintGrid-Mug-8_CelCurveTexture-ramp.png using Guid(f18f259c2f45e489e9380c0a7c425d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422a50fa52109104ce34ada9ce5dbcde') in 0.009339 seconds 
+  Import took 0.015854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Cherries.mat
+  artifactKey: Guid(e1f7a4beaccf842febeeb7c759f119c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Cherries.mat using Guid(e1f7a4beaccf842febeeb7c759f119c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a434ee21c09b190871401c5ca48da8c6') in 0.326803 seconds 
+  Import took 0.334099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Cherries.mat
+  artifactKey: Guid(f9712c421eb55461cb291f5a897bbfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Cherries.mat using Guid(f9712c421eb55461cb291f5a897bbfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f7904e75ffe394296bb876c869dd91') in 0.348071 seconds 
+  Import took 0.354004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Leaves_CelStepTexture-ramp.png
+  artifactKey: Guid(e04f138cb02b040ddb9e637bb43675b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Leaves_CelStepTexture-ramp.png using Guid(e04f138cb02b040ddb9e637bb43675b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff74b7193e76e0182f7df1c37364a23f') in 0.006139 seconds 
+  Import took 0.013662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/FV-Scene-4-Ramps/4-Grenade_CelCurveTexture-ramp.png
+  artifactKey: Guid(f6c5192c3616b495caa2282ec6670c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/FV-Scene-4-Ramps/4-Grenade_CelCurveTexture-ramp.png using Guid(f6c5192c3616b495caa2282ec6670c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea0d26ce48806ea45d974a9aa3d2e6b') in 0.011879 seconds 
+  Import took 0.019178 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000194 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png
-  artifactKey: Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png using Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c88eaa6b1771ea6d9893c4d3eff234') in 0.007770 seconds 
-  Import took 0.012946 seconds .
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Grape_CelStepTexture-ramp.png
+  artifactKey: Guid(e45f4cf5eba4b4de589c2f41bb52cc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Grape_CelStepTexture-ramp.png using Guid(e45f4cf5eba4b4de589c2f41bb52cc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6766817b6d6a8c2cfaa43f772b513899') in 0.009888 seconds 
+  Import took 0.017826 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.079228 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Room/Room-CameraProfiles/CameraProfile - Room - URP.asset
-  artifactKey: Guid(5e02049507ac54f9888989755f6210ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Room/Room-CameraProfiles/CameraProfile - Room - URP.asset using Guid(5e02049507ac54f9888989755f6210ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e3fd9c62cd1da1c659a6649fe4f1076') in 0.017165 seconds 
-  Import took 0.036117 seconds .
+  Time since last request: 0.000232 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/FV-Scene-4-Ramps/4-Banana_CelCurveTexture-ramp.png
+  artifactKey: Guid(e2d082d1819304ba592b119777a65736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/FV-Scene-4-Ramps/4-Banana_CelCurveTexture-ramp.png using Guid(e2d082d1819304ba592b119777a65736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14691c4f59c4696a19cacca32e0aa8da') in 0.009747 seconds 
+  Import took 0.018497 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/FlatKit/Demos/[Demo] Room/Room-CameraProfiles/CameraProfile - Room.asset
-  artifactKey: Guid(9b1f3a813f22c492f8448a6e39a99d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FlatKit/Demos/[Demo] Room/Room-CameraProfiles/CameraProfile - Room.asset using Guid(9b1f3a813f22c492f8448a6e39a99d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c6453e7a3284b3d6ec1f791f31f9ff') in 0.001851 seconds 
-  Import took 0.008598 seconds .
+  Time since last request: 0.000175 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Pear2_CelStepTexture-ramp.png
+  artifactKey: Guid(8cd61bb72c0294ae3a19fa8c904cc0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Pear2_CelStepTexture-ramp.png using Guid(8cd61bb72c0294ae3a19fa8c904cc0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0e84d8db803ed88ddc3ae52b109f9a') in 0.005799 seconds 
+  Import took 0.012562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Plane2_CelStepTexture-ramp.png
+  artifactKey: Guid(9a948dead24d448ad9ff6de57a5240fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Plane2_CelStepTexture-ramp.png using Guid(9a948dead24d448ad9ff6de57a5240fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a120e1301b131f729432cc478070d6fd') in 0.006772 seconds 
+  Import took 0.012621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Cherries_CelStepTexture-ramp.png
+  artifactKey: Guid(76c53396ca7a64590ad8ca25ba0a6e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Cherries_CelStepTexture-ramp.png using Guid(76c53396ca7a64590ad8ca25ba0a6e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb0246409fbe2734a5d81e9f89dfc8d') in 0.007385 seconds 
+  Import took 0.014738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Strawberry_CelStepTexture-ramp.png
+  artifactKey: Guid(bbc15913f91d743f2988eb8931e4cc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Strawberry_CelStepTexture-ramp.png using Guid(bbc15913f91d743f2988eb8931e4cc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1bf0b8b86f58b6e6fc7f1611b6df7da') in 0.006114 seconds 
+  Import took 0.011361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/FV-Scene-4-Ramps/4-Grape_CelCurveTexture-ramp.png
+  artifactKey: Guid(c969af59ed06a4347bee8eb2a3c15df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 4 - Mode_Curve-Gradients/FV-Scene-4-Ramps/4-Grape_CelCurveTexture-ramp.png using Guid(c969af59ed06a4347bee8eb2a3c15df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3faf0c0667e39d23a83ebd9ccc6fbc') in 0.010997 seconds 
+  Import took 0.016782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/BlPrMugs-Scene_2_RampTextures/02.2-BlueprintGrid-Mug-3_CelStepTexture-ramp.png
+  artifactKey: Guid(572ba7ee22fc24d93bfed3ca67752ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/BlPrMugs-Scene_2_RampTextures/02.2-BlueprintGrid-Mug-3_CelStepTexture-ramp.png using Guid(572ba7ee22fc24d93bfed3ca67752ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f655c512b3ab370a896070abde0d42') in 0.008277 seconds 
+  Import took 0.015995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Grenade_CelStepTexture-ramp.png
+  artifactKey: Guid(737443e1f7a354825a5d9a42684293cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/FV-Scene-3-Ramps/3-Grenade_CelStepTexture-ramp.png using Guid(737443e1f7a354825a5d9a42684293cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d10f149e15a0bf82a8795d37543cdae') in 0.005993 seconds 
+  Import took 0.011182 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.035043 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.238 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5258ms)
+		BeginReloadAssembly (1009ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (132ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (464ms)
+		EndReloadAssembly (4106ms)
+			LoadAssemblies (441ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (521ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (2093ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (463ms)
+				ProcessInitializeOnLoadAttributes (1555ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (324ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3560 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 309.4 MB.
+System memory in use after: 309.5 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 4368.
+Total: 4.592584 ms (FindLiveObjects: 0.232917 ms CreateObjectMapping: 0.124458 ms MarkObjects: 4.113416 ms  DeleteObjects: 0.120375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006293 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.270 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4272ms)
+		BeginReloadAssembly (405ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (42ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (168ms)
+		EndReloadAssembly (3741ms)
+			LoadAssemblies (333ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (462ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (1979ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (392ms)
+				ProcessInitializeOnLoadAttributes (1526ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (304ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3560 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 309.6 MB.
+System memory in use after: 309.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4388.
+Total: 3.479542 ms (FindLiveObjects: 0.231958 ms CreateObjectMapping: 0.134167 ms MarkObjects: 2.997458 ms  DeleteObjects: 0.114834 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 849.334339 seconds.
+  path: Assets/Models/Ceramic Bowl.fbx
+  artifactKey: Guid(fadc7f2993ba0437bb28aabd04a92532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ceramic Bowl.fbx using Guid(fadc7f2993ba0437bb28aabd04a92532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f76a5598ed1e149dbd849f6143236a') in 2.435259 seconds 
+  Import took 3.021987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.778781 seconds.
+  path: Assets/Materials/White.mat
+  artifactKey: Guid(a313a5bc7fd054c0495398e2b27008da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/White.mat using Guid(a313a5bc7fd054c0495398e2b27008da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173b37e9f1dae8b2688b71cb56f004e5') in 0.129106 seconds 
+  Import took 0.152280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.244107 seconds.
+  path: Assets/Models/ugly-lye-croissant-with-sesame-seeds/textures/Base_color_1.jpg
+  artifactKey: Guid(0ec0c65b33efb4db08f1b12b6e174d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/ugly-lye-croissant-with-sesame-seeds/textures/Base_color_1.jpg using Guid(0ec0c65b33efb4db08f1b12b6e174d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d86135e64536f5394f062868dc1c2f0') in 1.107884 seconds 
+  Import took 1.143832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Models/cookiecat/textures/cookieeColor.png
+  artifactKey: Guid(ea025e578807840189ae73df590e101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/cookiecat/textures/cookieeColor.png using Guid(ea025e578807840189ae73df590e101b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd687ba3cfc970fd92584b0b13fbbac65') in 0.013463 seconds 
+  Import took 0.020131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Models/melting-ice-cream-bar-shape-key-animation/textures/IceCreamBar_IceCreamBar_BaseColor.jpg
+  artifactKey: Guid(7e402b707f1e74f9f85e6483fbebb574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/melting-ice-cream-bar-shape-key-animation/textures/IceCreamBar_IceCreamBar_BaseColor.jpg using Guid(7e402b707f1e74f9f85e6483fbebb574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e6471b9f4944fa4a640f5c214e35b2') in 0.010653 seconds 
+  Import took 0.017855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Models/cookiecat/textures/ICECREAMColor.png
+  artifactKey: Guid(fc0c6815e2d12475d85af80788e415c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/cookiecat/textures/ICECREAMColor.png using Guid(fc0c6815e2d12475d85af80788e415c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5883990223563f85d9573a34bd59670') in 0.009461 seconds 
+  Import took 0.016458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.202439 seconds.
+  path: Assets/Models/boba-tea-cup/source
+  artifactKey: Guid(4c7373ae0abe34bc8b13aa231a35f94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/boba-tea-cup/source using Guid(4c7373ae0abe34bc8b13aa231a35f94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfc4e872d2e40d895806dedde7e4699') in 0.002945 seconds 
+  Import took 0.032187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012622 seconds.
+  path: Assets/Models/boba-tea-cup/source/Boba-Tea-Cup.fbx
+  artifactKey: Guid(cd2982fa168b54ad0a4f41da241c8b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/boba-tea-cup/source/Boba-Tea-Cup.fbx using Guid(cd2982fa168b54ad0a4f41da241c8b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7009e81bece8611b96ee435451917709') in 1.378011 seconds 
+  Import took 1.442932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.075384 seconds.
+  path: Assets/Models/cookiecat/source
+  artifactKey: Guid(7f87e22d4bb1f49438d69f8e8e7fbdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/cookiecat/source using Guid(7f87e22d4bb1f49438d69f8e8e7fbdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c707047bb9c19240ea9931d9a391966') in 0.003073 seconds 
+  Import took 0.049800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Models/cookiecat/source/COOKIECAT.fbx
+  artifactKey: Guid(77e50ce7176a14a5290d6a580a9ad897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/cookiecat/source/COOKIECAT.fbx using Guid(77e50ce7176a14a5290d6a580a9ad897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe40a2020bbb3b7120eae03c308407e5') in 0.553251 seconds 
+  Import took 0.562585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.438181 seconds.
+  path: Assets/Models/corn/source
+  artifactKey: Guid(d6baf542b16d443c6a15e21a19a6a20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/corn/source using Guid(d6baf542b16d443c6a15e21a19a6a20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a845fde82135d1cd41329e0f56230092') in 0.005502 seconds 
+  Import took 0.032513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014126 seconds.
+  path: Assets/Models/corn/source/corn_1.blend
+  artifactKey: Guid(01c7be5abf6da4a32a3a8ea503a0a117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/corn/source/corn_1.blend using Guid(01c7be5abf6da4a32a3a8ea503a0a117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a457f91d5a8bbd5a844e6ea6a8de83') in 2.987393 seconds 
+  Import took 3.020967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.247292 seconds.
+  path: Assets/Models/free-to-download-handpainted-stylized-cupcake/source
+  artifactKey: Guid(fe15204bc865e4ba689ff1499be467d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/free-to-download-handpainted-stylized-cupcake/source using Guid(fe15204bc865e4ba689ff1499be467d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc64fbe6e13a4efd7406bd5b1f8d6ba9') in 0.006683 seconds 
+  Import took 0.051144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Models/free-to-download-handpainted-stylized-cupcake/source/heart_cupcake.fbx
+  artifactKey: Guid(10a547c2399424bc48472d717efce9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/free-to-download-handpainted-stylized-cupcake/source/heart_cupcake.fbx using Guid(10a547c2399424bc48472d717efce9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfcedecddf649aec3125bf14d527111') in 0.072912 seconds 
+  Import took 0.080976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.729572 seconds.
+  path: Assets/Models/free-to-download-handpainted-stylized-cupcake/textures/_cupcake_A.png
+  artifactKey: Guid(20ced008fa0e54edcabf3744da7a1b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/free-to-download-handpainted-stylized-cupcake/textures/_cupcake_A.png using Guid(20ced008fa0e54edcabf3744da7a1b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dcddd6ec557df43f2390a36ff5a7904') in 0.029321 seconds 
+  Import took 0.049251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Models/free-to-download-handpainted-stylized-cupcake/textures/_cupcake_R.png
+  artifactKey: Guid(fe05d8021398442359f4cfa23acdcbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/free-to-download-handpainted-stylized-cupcake/textures/_cupcake_R.png using Guid(fe05d8021398442359f4cfa23acdcbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5113999a03dc6dd019ed296921d866') in 0.013552 seconds 
+  Import took 0.020869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Models/free-to-download-handpainted-stylized-cupcake/textures/heart_cupcake_cupcake_mat_Normal.png
+  artifactKey: Guid(ff9f11aa49f0e4d23965c710dce9a63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/free-to-download-handpainted-stylized-cupcake/textures/heart_cupcake_cupcake_mat_Normal.png using Guid(ff9f11aa49f0e4d23965c710dce9a63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6309bc1e9d0c486679c78cf626fc86f7') in 0.011447 seconds 
+  Import took 0.020011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.102394 seconds.
+  path: Assets/Models/melting-ice-cream-bar-shape-key-animation/source
+  artifactKey: Guid(5feeed23c851547cb8d6113d539dba65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/melting-ice-cream-bar-shape-key-animation/source using Guid(5feeed23c851547cb8d6113d539dba65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db65c52472de52e56d5f6f00d9e14ac') in 0.004775 seconds 
+  Import took 0.048955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Models/melting-ice-cream-bar-shape-key-animation/source/Sketchfab_2022_02_06_02_41_46.blend
+  artifactKey: Guid(b196f906081a44f3fa946cc9a2d99669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/melting-ice-cream-bar-shape-key-animation/source/Sketchfab_2022_02_06_02_41_46.blend using Guid(b196f906081a44f3fa946cc9a2d99669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb970b4d6a047b208748a804dbe92155') in 0.205644 seconds 
+  Import took 0.214446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.795405 seconds.
+  path: Assets/Materials/Brown 1.mat
+  artifactKey: Guid(9335ba587f8004f54a8230b16a9d01fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Brown 1.mat using Guid(9335ba587f8004f54a8230b16a9d01fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23ea805610e2bfe4c5b6e36080fa806') in 0.035974 seconds 
+  Import took 0.065641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.192233 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Apple.mat
+  artifactKey: Guid(296f44fbf99bf4a358d0f718c4db034d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Apple.mat using Guid(296f44fbf99bf4a358d0f718c4db034d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e37f15b06174be760ffce1c1a267072') in 0.120368 seconds 
+  Import took 0.170254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Apple.mat
+  artifactKey: Guid(e8c9cf42b0af84af58f6d9c41f024d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Apple.mat using Guid(e8c9cf42b0af84af58f6d9c41f024d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62689bf7e1cd8a1e2aa9e5a9db1009a1') in 0.016180 seconds 
+  Import took 0.025016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Stalks.mat
+  artifactKey: Guid(9d8c7bc0291ea46609bd39a48f613b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Stalks.mat using Guid(9d8c7bc0291ea46609bd39a48f613b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd613a8bf01e59c2f6cda33377ac8e07f') in 0.037342 seconds 
+  Import took 0.084343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Pear1.mat
+  artifactKey: Guid(7c2c5a0b294914197a9130e7e3337128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Pear1.mat using Guid(7c2c5a0b294914197a9130e7e3337128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0958e73b1222a66b8d7dae59d1b52a6d') in 0.032645 seconds 
+  Import took 0.066892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-StrawberrySeeds.mat
+  artifactKey: Guid(12634e13e0ea040f18e3c0ef503c889e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-StrawberrySeeds.mat using Guid(12634e13e0ea040f18e3c0ef503c889e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4c1b2b1ddbf2651008c9c75db9c946') in 0.010250 seconds 
+  Import took 0.017378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Pear2.mat
+  artifactKey: Guid(ebd094c9d8fa7491595558541626643b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Pear2.mat using Guid(ebd094c9d8fa7491595558541626643b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626106479630bb8349816bd26dc01b76') in 0.009114 seconds 
+  Import took 0.015337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Grape.mat
+  artifactKey: Guid(ccb08d2326c8e426e89cf8134fd38ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Grape.mat using Guid(ccb08d2326c8e426e89cf8134fd38ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e58c0e7f807e9f9ff36f3a4df641ee') in 0.008483 seconds 
+  Import took 0.015119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Plane.mat
+  artifactKey: Guid(46db7ba04285c46109e450d53292a114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Plane.mat using Guid(46db7ba04285c46109e450d53292a114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbef409444e066a5838ccaea8709572e') in 0.012634 seconds 
+  Import took 0.019354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Vase.mat
+  artifactKey: Guid(8135cf567f3a947aaa78e561607fa0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Vase.mat using Guid(8135cf567f3a947aaa78e561607fa0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63b5d980bbf92ec62c92c8358832fd2') in 0.008565 seconds 
+  Import took 0.013467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Plane2.mat
+  artifactKey: Guid(f32d9e0dd01cf40d6a62d9692d7e5b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Plane2.mat using Guid(f32d9e0dd01cf40d6a62d9692d7e5b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fd6f460ce5acb2ca9a0853071b111d') in 0.009186 seconds 
+  Import took 0.015662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Grenade.mat
+  artifactKey: Guid(1e713864208124b5890945e2967fd787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Grenade.mat using Guid(1e713864208124b5890945e2967fd787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647aaea6ca76d4d91edaf9e06180e925') in 0.010046 seconds 
+  Import took 0.015991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Banana.mat
+  artifactKey: Guid(a8c7e1f1d8dda4ac9ad82478ee656794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Banana.mat using Guid(a8c7e1f1d8dda4ac9ad82478ee656794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd1362a29ce839d4b270fa9a7be57af') in 0.008246 seconds 
+  Import took 0.014908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Banana.mat
+  artifactKey: Guid(09d689fffc8ae4e19a0c30d4470c8a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Banana.mat using Guid(09d689fffc8ae4e19a0c30d4470c8a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5696114a9fa1437873bcd60cf4b08c5d') in 0.009111 seconds 
+  Import took 0.015542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Plane2.mat
+  artifactKey: Guid(7960ccd4b93bf4d6890224b11274ba5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Plane2.mat using Guid(7960ccd4b93bf4d6890224b11274ba5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfe5252e6ac3effbb1bb90be39c7662') in 0.008616 seconds 
+  Import took 0.016144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Leaves.mat
+  artifactKey: Guid(d4954f29ebb334b08a03231dbbd93eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Leaves.mat using Guid(d4954f29ebb334b08a03231dbbd93eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de092aaeb7e243b518ca6625079564c') in 0.009949 seconds 
+  Import took 0.016719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Pear2.mat
+  artifactKey: Guid(0f171c6eeafc140ccaa4cbb55e13d6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Pear2.mat using Guid(0f171c6eeafc140ccaa4cbb55e13d6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8177a26c9def8f179ffd9afa51f99f0e') in 0.011893 seconds 
+  Import took 0.017667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Grape.mat
+  artifactKey: Guid(3d8eb1b1892c84575ac0cdf4cd9c9906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Grape.mat using Guid(3d8eb1b1892c84575ac0cdf4cd9c9906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394de843adb709426aa389fb18c2a145') in 0.011066 seconds 
+  Import took 0.017249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Strawberry.mat
+  artifactKey: Guid(815c5d1a139f541d7adc673766648f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Strawberry.mat using Guid(815c5d1a139f541d7adc673766648f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e538606603e3f1bb6114ca2cd5a242') in 0.008198 seconds 
+  Import took 0.014545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Grenade.mat
+  artifactKey: Guid(4c460122f06154244961f7f1d8ec76fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Grenade.mat using Guid(4c460122f06154244961f7f1d8ec76fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59135cdec26582a195f98158ed1d3e8') in 0.013163 seconds 
+  Import took 0.023343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Stalks.mat
+  artifactKey: Guid(e82d9192ebf36438293c8062b7ea51b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Stalks.mat using Guid(e82d9192ebf36438293c8062b7ea51b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef798a2a614a241a687fe3ef65e2bc29') in 0.007980 seconds 
+  Import took 0.014536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Pear1.mat
+  artifactKey: Guid(4061a85dc5dea44119966936744e4065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Pear1.mat using Guid(4061a85dc5dea44119966936744e4065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b73e50623a63eed37c8a356953f0d9a') in 0.008285 seconds 
+  Import took 0.015015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Plane.mat
+  artifactKey: Guid(9d823727a38d648978b27af5e116b43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Plane.mat using Guid(9d823727a38d648978b27af5e116b43a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee84ce6bcd6bf6af9cc0a80422657b8') in 0.008538 seconds 
+  Import took 0.014244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Leaves.mat
+  artifactKey: Guid(f145e4d40e0bc42c59a9a5fd4b27f4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Leaves.mat using Guid(f145e4d40e0bc42c59a9a5fd4b27f4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7abd5b58522321074e2b244d3920a3a0') in 0.022568 seconds 
+  Import took 0.041530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Strawberry.mat
+  artifactKey: Guid(420b99919db8d4e49ab62697a33585ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 1 - Mode_None-Completely Flat/1-Strawberry.mat using Guid(420b99919db8d4e49ab62697a33585ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7319d2dfc3934dfe9331d5e6b5ff44') in 0.008442 seconds 
+  Import took 0.014655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.222865 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-StrawberrySeeds.mat
+  artifactKey: Guid(e72d04407c5fa495d8e770cfd66f4fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-StrawberrySeeds.mat using Guid(e72d04407c5fa495d8e770cfd66f4fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9febcc0362c727b9f99394075509a3b6') in 0.014627 seconds 
+  Import took 0.025608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-03.mat
+  artifactKey: Guid(6bc6592a65b9342eba1326a6beb25c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-03.mat using Guid(6bc6592a65b9342eba1326a6beb25c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20c1054b382c853e32e40cd7f83fde7') in 0.380010 seconds 
+  Import took 0.386592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-2.mat
+  artifactKey: Guid(2eb9c8d0c1d6e439384930b2be8a6ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-2.mat using Guid(2eb9c8d0c1d6e439384930b2be8a6ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b943933d05d3435ea963281f88ecb0') in 0.011661 seconds 
+  Import took 0.019242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-8.mat
+  artifactKey: Guid(e5aab80f9233143499189c94e0b74a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-8.mat using Guid(e5aab80f9233143499189c94e0b74a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f93f39b20ba6ee47904bcd8cdd3045') in 0.313587 seconds 
+  Import took 0.319696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-06.mat
+  artifactKey: Guid(a09f691a2eca6428781040174383f956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-06.mat using Guid(a09f691a2eca6428781040174383f956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a3fb1792d6c88470a6e784477a3201') in 0.342453 seconds 
+  Import took 0.348460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-04.mat
+  artifactKey: Guid(b184e89337c8240f79100ad4fd539699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-04.mat using Guid(b184e89337c8240f79100ad4fd539699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a321d47b7062b177eac38b2c41d8cd61') in 0.008214 seconds 
+  Import took 0.014021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-09.mat
+  artifactKey: Guid(ef8addc58707a4ed5a4c9762c5a2e258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-09.mat using Guid(ef8addc58707a4ed5a4c9762c5a2e258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1758fd9aa377de704ec146525506ffd') in 0.010341 seconds 
+  Import took 0.016911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Vase.mat
+  artifactKey: Guid(58abd1fcfb9e84376a6e41a4ae821648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 2 - Mode_Single/2-Vase.mat using Guid(58abd1fcfb9e84376a6e41a4ae821648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2430b6ad480bec6c037d8a951b19d8') in 0.008179 seconds 
+  Import took 0.013897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-4.mat
+  artifactKey: Guid(039052bae636446f19dde34f32a92f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-4.mat using Guid(039052bae636446f19dde34f32a92f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c3d36016ccefc24e97fc8d04d22387') in 0.350314 seconds 
+  Import took 0.356562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-05.mat
+  artifactKey: Guid(88542bf88d90145e99642d66c2969744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-05.mat using Guid(88542bf88d90145e99642d66c2969744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ee0fe946dfa88ffb35bc9b8f620368') in 0.008579 seconds 
+  Import took 0.013978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-9.mat
+  artifactKey: Guid(42b481ef7656046248b2cf4735566a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-9.mat using Guid(42b481ef7656046248b2cf4735566a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87d94358b9482eba3b1ee946a0ed7b9') in 0.300472 seconds 
+  Import took 0.306732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-01.mat
+  artifactKey: Guid(e831e374758eb4a019b3031699e35407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-01.mat using Guid(e831e374758eb4a019b3031699e35407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66dfef594849eff0167e995300c22d1') in 0.008080 seconds 
+  Import took 0.014340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-08.mat
+  artifactKey: Guid(3f40fef2e4b9a46978153473ed0594c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-08.mat using Guid(3f40fef2e4b9a46978153473ed0594c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f091c79cc2a343fd3f0e349323db142') in 0.009269 seconds 
+  Import took 0.015652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-3.mat
+  artifactKey: Guid(93506af72f5ac4d61b10187ddaafcd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-3.mat using Guid(93506af72f5ac4d61b10187ddaafcd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909a17ed988e29c3e620e86fed67c39b') in 0.316608 seconds 
+  Import took 0.323568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-7.mat
+  artifactKey: Guid(be8592524361449788c114916a0f884d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-7.mat using Guid(be8592524361449788c114916a0f884d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14726736828f10659a534542e966f46f') in 0.341721 seconds 
+  Import took 0.348561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-12.mat
+  artifactKey: Guid(b44fafb1c5a874fae8b2940ccbec5ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-12.mat using Guid(b44fafb1c5a874fae8b2940ccbec5ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d06ed53c9c002defd6a86c76677798e') in 0.420721 seconds 
+  Import took 0.426674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-11.mat
+  artifactKey: Guid(f82135f2bca0949279eade31997c5b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-11.mat using Guid(f82135f2bca0949279eade31997c5b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbdd584c8fec16916476e5731a7e04d') in 0.315190 seconds 
+  Import took 0.319945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Apple.mat
+  artifactKey: Guid(3f92c4853a96545298d96bceb96a46c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Apple.mat using Guid(3f92c4853a96545298d96bceb96a46c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00e44fa0a011c2cfd034d487b1ad716') in 0.010206 seconds 
+  Import took 0.016505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-02.mat
+  artifactKey: Guid(9ed267afa8ac44ede8f6af968e2c90c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-02.mat using Guid(9ed267afa8ac44ede8f6af968e2c90c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce2fbacc489bf52f83e8bcd4848b686') in 0.321578 seconds 
+  Import took 0.327180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-07.mat
+  artifactKey: Guid(bf02260f0c2704f2cb34ad5fb15ea544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/1 - ColorfulMisc/02.1-BlueprintGrid-Mug-07.mat using Guid(bf02260f0c2704f2cb34ad5fb15ea544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f8b62942e797773654f4b0de93f84a') in 0.018282 seconds 
+  Import took 0.025407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001314 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-5.mat
+  artifactKey: Guid(6d0f60b4399f94b6d8d389c31f031e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-5.mat using Guid(6d0f60b4399f94b6d8d389c31f031e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61172b19943f1a1f30be733086063209') in 0.008935 seconds 
+  Import took 0.015114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-13.mat
+  artifactKey: Guid(5de98860df0034b1fbb8bd3c83257f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-13.mat using Guid(5de98860df0034b1fbb8bd3c83257f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50fd8e4b7375dc995d38f207ec7a4574') in 0.342147 seconds 
+  Import took 0.348338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-14.mat
+  artifactKey: Guid(dea6faf6a0e174ae6b9501e06bac8d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-14.mat using Guid(dea6faf6a0e174ae6b9501e06bac8d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b23ea9194d4a9d6d9859979f5291c3') in 0.068837 seconds 
+  Import took 0.073762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-10.mat
+  artifactKey: Guid(7c21cd5ce29a140cba4c9ae961a24b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-10.mat using Guid(7c21cd5ce29a140cba4c9ae961a24b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61babf85385015277152cbf2529e0b52') in 0.013245 seconds 
+  Import took 0.018357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-1.mat
+  artifactKey: Guid(c42e8b42a8bfa45fc8fd3620edb2b31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-1.mat using Guid(c42e8b42a8bfa45fc8fd3620edb2b31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641fa40565f78cc8e17d786896b95517') in 0.009779 seconds 
+  Import took 0.015622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-6.mat
+  artifactKey: Guid(1ba3ff017073f4f55b116aeb4f31456a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/2 - OneColorVariousParameters/02.2-BlueprintGrid-Mug-6.mat using Guid(1ba3ff017073f4f55b116aeb4f31456a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4afabf7db01e9b5002112a9d52871ab9') in 0.327326 seconds 
+  Import took 0.332741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.420762 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Banana.mat
+  artifactKey: Guid(9d552e75b21724ee0ae4840788bdeb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Banana.mat using Guid(9d552e75b21724ee0ae4840788bdeb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ea5ad521df0bd20e5f7559834f8fe7') in 0.344862 seconds 
+  Import took 0.354272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Grenade.mat
+  artifactKey: Guid(7ffff4954cf1d4e6dbc20b4ebd9a03cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Grenade.mat using Guid(7ffff4954cf1d4e6dbc20b4ebd9a03cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f686b4ebea36dd6661a04c9e6b2e8f4d') in 0.009185 seconds 
+  Import took 0.014471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Pear2.mat
+  artifactKey: Guid(fcf69effea64a406e8f9bd446e0ac9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Pear2.mat using Guid(fcf69effea64a406e8f9bd446e0ac9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9051c85388dc350e65ba29351fe43262') in 0.013384 seconds 
+  Import took 0.019362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001304 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Grape.mat
+  artifactKey: Guid(0a8f2d4c180e14933bb063e01772ad21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Grape.mat using Guid(0a8f2d4c180e14933bb063e01772ad21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1feef232a58f113165540e8adab1ad8') in 0.009721 seconds 
+  Import took 0.017222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Pear1.mat
+  artifactKey: Guid(7303eb7866ef24a1f9276cef9d5c1511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Pear1.mat using Guid(7303eb7866ef24a1f9276cef9d5c1511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d7bfe9b8c0559a02ee5806974dc96b') in 0.009168 seconds 
+  Import took 0.014743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Leaves.mat
+  artifactKey: Guid(e3abdacc86588450f93b1e2fad43846b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Leaves.mat using Guid(e3abdacc86588450f93b1e2fad43846b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48261cae5a20ab1eb2925be519513aa0') in 0.008131 seconds 
+  Import took 0.014157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076519 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Plane.mat
+  artifactKey: Guid(3b383092b935c4c0389580d16728c4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Plane.mat using Guid(3b383092b935c4c0389580d16728c4ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2170e229954fa35388ead5399c24ca') in 0.008851 seconds 
+  Import took 0.017228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000671 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Vase.mat
+  artifactKey: Guid(c88d6fe94495d45cd8f3ea600296c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Vase.mat using Guid(c88d6fe94495d45cd8f3ea600296c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d2a36701517c7f249783981d477682') in 0.010824 seconds 
+  Import took 0.016401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-StrawberrySeeds.mat
+  artifactKey: Guid(932b9fff620b747189b533d3c7ac1d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-StrawberrySeeds.mat using Guid(932b9fff620b747189b533d3c7ac1d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408fe8983f37fd0b0b581d78600741c9') in 0.007878 seconds 
+  Import took 0.013714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Plane2.mat
+  artifactKey: Guid(0ed7196bab0834a1ea51bf6a7f6d83b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Plane2.mat using Guid(0ed7196bab0834a1ea51bf6a7f6d83b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd87f912c90c16563d21ad03055a5cf6') in 0.008658 seconds 
+  Import took 0.012835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Strawberry.mat
+  artifactKey: Guid(28618228308fc4bf897315cc66b66c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Strawberry.mat using Guid(28618228308fc4bf897315cc66b66c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a8f5c135743f8b301800107c78e516b') in 0.009277 seconds 
+  Import took 0.015044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Stalks.mat
+  artifactKey: Guid(468ad9d33d1cb4b20b523d4c7cef35a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 3 - Mode_Steps-Toony/3-Stalks.mat using Guid(468ad9d33d1cb4b20b523d4c7cef35a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8426d3a62094e2398caee5069f12bd86') in 0.007251 seconds 
+  Import took 0.023670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.538871 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Apple.mat
+  artifactKey: Guid(3b297fb5a94834d16a6292800e1f1e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Apple.mat using Guid(3b297fb5a94834d16a6292800e1f1e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddd93894db79c9aeba6a40308c0beb0') in 0.336630 seconds 
+  Import took 0.347545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Pear1.mat
+  artifactKey: Guid(204c5c8ab438f4cc78a924c1db1a4863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Pear1.mat using Guid(204c5c8ab438f4cc78a924c1db1a4863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382addf7f40a020c1092d7f9f769680c') in 0.010474 seconds 
+  Import took 0.015803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Stalks.mat
+  artifactKey: Guid(3ff83c8cf8e2842d6b184dd1ea87876c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Stalks.mat using Guid(3ff83c8cf8e2842d6b184dd1ea87876c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43363fc289bb7800cf53c3dabbe04aac') in 0.014084 seconds 
+  Import took 0.026957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Pear2.mat
+  artifactKey: Guid(c2f3b28d60c26490580c3f9a49e0011d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Pear2.mat using Guid(c2f3b28d60c26490580c3f9a49e0011d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c3db3dc4c4bd8976b5f15709514f6b') in 0.015172 seconds 
+  Import took 0.021257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Grape.mat
+  artifactKey: Guid(e114049ae5b434afeb1869bbb42a7cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Grape.mat using Guid(e114049ae5b434afeb1869bbb42a7cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746353e7d8f700445725b269d2ba39c3') in 0.008412 seconds 
+  Import took 0.014540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000625 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Leaves.mat
+  artifactKey: Guid(7607e0f4806a542f4b101832152df31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Leaves.mat using Guid(7607e0f4806a542f4b101832152df31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99bee7d7910efe80f1a52a4511e69239') in 0.012486 seconds 
+  Import took 0.017786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000679 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Plane2.mat
+  artifactKey: Guid(57ffdc651efce4908b6b899ca9c92c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Plane2.mat using Guid(57ffdc651efce4908b6b899ca9c92c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24566f211586c6856982469de7eb6a65') in 0.008823 seconds 
+  Import took 0.014306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000725 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Grenade.mat
+  artifactKey: Guid(a9c62cefbbbbf44fe901614f6acf2e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Grenade.mat using Guid(a9c62cefbbbbf44fe901614f6acf2e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e3fe4b5f63b4d7a52c1823ade33461') in 0.008537 seconds 
+  Import took 0.014881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Cherries.mat
+  artifactKey: Guid(743e8405812a049669d4446bdc64d83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Cherries.mat using Guid(743e8405812a049669d4446bdc64d83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabb066424a1af7ce5a1af900ac17760') in 0.008336 seconds 
+  Import took 0.014185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Plane.mat
+  artifactKey: Guid(dbceb692747184fdf963852db77f004c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Plane.mat using Guid(dbceb692747184fdf963852db77f004c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd99e099db9b211c7e65ebba9d29108f') in 0.007710 seconds 
+  Import took 0.012319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Banana.mat
+  artifactKey: Guid(8d96ad0a0975345709ff14ef8dcdfba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Banana.mat using Guid(8d96ad0a0975345709ff14ef8dcdfba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7db95a11703d8e50e0746c6d64dd7a57') in 0.007893 seconds 
+  Import took 0.013421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.803568 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Strawberry.mat
+  artifactKey: Guid(5e6f1d01380b64b81a5a870bdfa3677f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Strawberry.mat using Guid(5e6f1d01380b64b81a5a870bdfa3677f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae1c8bec1d186c96dc466e0fb5d9061') in 0.013654 seconds 
+  Import took 0.023292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Vase.mat
+  artifactKey: Guid(108a8e17d95634cf88efd881399aec3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-Vase.mat using Guid(108a8e17d95634cf88efd881399aec3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9230cc73245fb41cb736bd0f4812d04') in 0.012256 seconds 
+  Import took 0.020083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-StrawberrySeeds.mat
+  artifactKey: Guid(bbd60ba8bffed4434b33f9573856e9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Fruit Vase/FruitVase-Materials/FV-Scene 5 - Var-Outlines/5-StrawberrySeeds.mat using Guid(bbd60ba8bffed4434b33f9573856e9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366665b148336b517c80c7cda1714833') in 0.010170 seconds 
+  Import took 0.017107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/StarterAssets/Environment/Art/Materials/Blue_Mat.mat
+  artifactKey: Guid(979aef027a1c86c42a15ce35fce366fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Materials/Blue_Mat.mat using Guid(979aef027a1c86c42a15ce35fce366fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3afb43b59624df1f943d8cbca4a9912') in 0.009638 seconds 
+  Import took 0.015412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.650969 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/Shared/BlueprintGrid-Grid.mat
+  artifactKey: Guid(bb2ae5fffe88a4ed8825df8aa4d870d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Mugs/Mugs-Materials/Shared/BlueprintGrid-Grid.mat using Guid(bb2ae5fffe88a4ed8825df8aa4d870d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083ede71de41da240c9908a08e1384a8') in 0.039156 seconds 
+  Import took 0.055077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034210 seconds.
+  path: Assets/StarterAssets/Environment/Art/Materials/Builtin_RP/BuiltInTriplanar_01_Mat.mat
+  artifactKey: Guid(3300a5c4710bac244815734e484b3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Materials/Builtin_RP/BuiltInTriplanar_01_Mat.mat using Guid(3300a5c4710bac244815734e484b3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6428b52b58d859b99655a371d2a665') in 0.076437 seconds 
+  Import took 0.110746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Body.mat
+  artifactKey: Guid(8f00bde2c4e76407f9e853cd7cba5c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Body.mat using Guid(8f00bde2c4e76407f9e853cd7cba5c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e04c1f062ed89802d94c46c6398ebf') in 0.393421 seconds 
+  Import took 0.400524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Chrome.mat
+  artifactKey: Guid(067013b2a82eb4cad87d82235ed2d552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Chrome.mat using Guid(067013b2a82eb4cad87d82235ed2d552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5871db7fb673dd2053a75d5130f81c6f') in 0.008500 seconds 
+  Import took 0.015486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.683858 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Chrome2.mat
+  artifactKey: Guid(7af8bb9140fc243589d384c6421d2510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Chrome2.mat using Guid(7af8bb9140fc243589d384c6421d2510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c07b0c1aea8ed728e425c6a07e8b032') in 0.415372 seconds 
+  Import took 0.438124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car2Body.mat
+  artifactKey: Guid(29f5d3455b4d3479ab9f6799b2a9092e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car2Body.mat using Guid(29f5d3455b4d3479ab9f6799b2a9092e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88af4a06eb5280587bed2981fc1bf5aa') in 0.376571 seconds 
+  Import took 0.382443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set2/Car-Set2-Plane.mat
+  artifactKey: Guid(aa90c2b292e6b4e1b9baa8a212b05f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set2/Car-Set2-Plane.mat using Guid(aa90c2b292e6b4e1b9baa8a212b05f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59851082d3f61e9d1d0e1b99fd5b7a6') in 0.008514 seconds 
+  Import took 0.015190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set2/Car-Set2-CarChrome.mat
+  artifactKey: Guid(98ace95fdea3d47099b06b6cdd5fd630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set2/Car-Set2-CarChrome.mat using Guid(98ace95fdea3d47099b06b6cdd5fd630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1006a1b9a2480ab9448e78449aa75c') in 0.010704 seconds 
+  Import took 0.018703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set2/Car-Set2-Windows.mat
+  artifactKey: Guid(90e903518be474d4dbb5cf62ce8b9ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set2/Car-Set2-Windows.mat using Guid(90e903518be474d4dbb5cf62ce8b9ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c76139f5e098acac7668d968947c49e') in 0.347693 seconds 
+  Import took 0.354486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Plane.mat
+  artifactKey: Guid(6af3ee3816dbf4e429aa2552d2bfd8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Plane.mat using Guid(6af3ee3816dbf4e429aa2552d2bfd8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d0ea6f118016b12d626acea58e6aec') in 0.359890 seconds 
+  Import took 0.365231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set3/Car-Set3-Black.mat
+  artifactKey: Guid(9aad60b09b2d9419e88fd7db49e5db6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set3/Car-Set3-Black.mat using Guid(9aad60b09b2d9419e88fd7db49e5db6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118d42effdd0a5e4271b298e6435049c') in 0.008276 seconds 
+  Import took 0.014464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Lights2.mat
+  artifactKey: Guid(fe69fbebd018247d4a0054d1264bcfdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Lights2.mat using Guid(fe69fbebd018247d4a0054d1264bcfdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e553d3bf08f8520215555bbd7bfc20c') in 0.016824 seconds 
+  Import took 0.023588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Plates.mat
+  artifactKey: Guid(783e6eb0854334fc98fdba1a3f26ae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Plates.mat using Guid(783e6eb0854334fc98fdba1a3f26ae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4268f6daef77dc9c020008cb860efe') in 0.364067 seconds 
+  Import took 0.369800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Black.mat
+  artifactKey: Guid(6bb66d09391044cef8f29feb558fa664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Black.mat using Guid(6bb66d09391044cef8f29feb558fa664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8d68ff001f8296c5bae11c72ba83a1') in 0.008267 seconds 
+  Import took 0.014576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Lights3.mat
+  artifactKey: Guid(16805951027bc42d187d5eb94e9b2e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Lights3.mat using Guid(16805951027bc42d187d5eb94e9b2e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43e0ade7e9fa5169b8e2076333d4be0') in 0.311981 seconds 
+  Import took 0.319523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car3Body.mat
+  artifactKey: Guid(1a5602b1bb62540499324bab7b9de1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car3Body.mat using Guid(1a5602b1bb62540499324bab7b9de1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85317c8d63b7876582a5226301c0a71b') in 0.391675 seconds 
+  Import took 0.398172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Windows.mat
+  artifactKey: Guid(ce73e3b0b1ff34be89316c372e7dd2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Windows.mat using Guid(ce73e3b0b1ff34be89316c372e7dd2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f471b63ca1e656f75bcb9a7ba22879') in 0.334248 seconds 
+  Import took 0.340066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car2Chrome2.mat
+  artifactKey: Guid(216bc1afbd31e4ffc9900ed3ea656a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car2Chrome2.mat using Guid(216bc1afbd31e4ffc9900ed3ea656a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce70b231a5de0ae4b2af67b4395ddf35') in 0.007659 seconds 
+  Import took 0.013079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set3/Car-Set3-Plane.mat
+  artifactKey: Guid(623533e25e77143779e361d4a63d5250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set3/Car-Set3-Plane.mat using Guid(623533e25e77143779e361d4a63d5250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0919d0676e67258a9816f4a9aa5022') in 0.355337 seconds 
+  Import took 0.361019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set2/Car-Set2-Car4Body-2.mat
+  artifactKey: Guid(27ce3a584d6484f8fbe43fafe9ba00f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set2/Car-Set2-Car4Body-2.mat using Guid(27ce3a584d6484f8fbe43fafe9ba00f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b08e6fc6928471773bd707d1698b6dd') in 0.008280 seconds 
+  Import took 0.013670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car4Body.mat
+  artifactKey: Guid(b4512ff0865814bd4b30cfb8abc628df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car4Body.mat using Guid(b4512ff0865814bd4b30cfb8abc628df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b547a22c3076815b4a1e4b6fed0fcc') in 0.014998 seconds 
+  Import took 0.020099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Plane2.mat
+  artifactKey: Guid(b2da8ee576f344749807e82e99bf8239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Plane2.mat using Guid(b2da8ee576f344749807e82e99bf8239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae6bc94403f0efc09626bb2882ca2c2') in 0.376725 seconds 
+  Import took 0.384443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set3/Car-Set3-CarBody1.mat
+  artifactKey: Guid(728aacafaee3645e680e7acad3f9e0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set3/Car-Set3-CarBody1.mat using Guid(728aacafaee3645e680e7acad3f9e0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037e93ddd6010da67217e348b0638d3c') in 0.406158 seconds 
+  Import took 0.414395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Hatch.mat
+  artifactKey: Guid(02d647967c9044a10b8c17e7012bdb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Hatch.mat using Guid(02d647967c9044a10b8c17e7012bdb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0729b61a77a691198d346ef474a56de') in 0.010125 seconds 
+  Import took 0.015367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set3/Car-Set3-CarChrome2.mat
+  artifactKey: Guid(d24e706e824bc408ebac74bc43c21ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set3/Car-Set3-CarChrome2.mat using Guid(d24e706e824bc408ebac74bc43c21ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c08b85e7173f143b3a3fc061a109c37') in 0.018065 seconds 
+  Import took 0.025169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001090 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set2/Car-Set2-Car4Body-1.mat
+  artifactKey: Guid(bcbc887a401b3411fb6cca34e86d33a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set2/Car-Set2-Car4Body-1.mat using Guid(bcbc887a401b3411fb6cca34e86d33a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22b9949f1c2579f8aeb3c5c40a0649e') in 0.011654 seconds 
+  Import took 0.017704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000632 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set3/Car-Set3-Windows.mat
+  artifactKey: Guid(cb46cd79b659c476db5620c0e778dc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set3/Car-Set3-Windows.mat using Guid(cb46cd79b659c476db5620c0e778dc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff140b9b1d887f58d9bb304472ef7be') in 0.008720 seconds 
+  Import took 0.014901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000749 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set3/Car-Set3-WheelRims.mat
+  artifactKey: Guid(69bd1c6c6931f403488e3211f2ac3076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set3/Car-Set3-WheelRims.mat using Guid(69bd1c6c6931f403488e3211f2ac3076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4daf8d599a8f972da944951732f83a') in 0.009618 seconds 
+  Import took 0.015384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Lights1.mat
+  artifactKey: Guid(283a705137c9344f9b4abcda7229f773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Car1Lights1.mat using Guid(283a705137c9344f9b4abcda7229f773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92128b5f83085bcbe46190268c4ae80') in 0.008546 seconds 
+  Import took 0.013366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Tyres.mat
+  artifactKey: Guid(7a45e777780ca4486a568ecccba01d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set1/Car-Set1-Tyres.mat using Guid(7a45e777780ca4486a568ecccba01d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d22f1955616163b55f9412a3bdca47') in 0.361818 seconds 
+  Import took 0.366676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set3/Car-Set3-CarChrome1.mat
+  artifactKey: Guid(27accb5e2c5a6461ab943f7a08510e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set3/Car-Set3-CarChrome1.mat using Guid(27accb5e2c5a6461ab943f7a08510e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743afe52af66c31bba6fa526be7391f6') in 0.008007 seconds 
+  Import took 0.013651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.310148 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Body1.mat
+  artifactKey: Guid(feb9f756985704e9eb9b3f27d8d52723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Body1.mat using Guid(feb9f756985704e9eb9b3f27d8d52723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf1b3d6d6bfa10e3b7ecead424a09dd') in 0.328811 seconds 
+  Import took 0.334831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-CarChrome2.mat
+  artifactKey: Guid(22080b292022d4a4d916858915c871ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-CarChrome2.mat using Guid(22080b292022d4a4d916858915c871ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c87323c12da5c1aead4391a82b7399d') in 0.007911 seconds 
+  Import took 0.013474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Plane.mat
+  artifactKey: Guid(75881e6aafc62438eb6247479071c5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Plane.mat using Guid(75881e6aafc62438eb6247479071c5bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243dca9aeefafe6923fc70da65bb6d0a') in 0.009509 seconds 
+  Import took 0.018570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarLights.mat
+  artifactKey: Guid(44d316af5efe24ff2b55fadf003af34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarLights.mat using Guid(44d316af5efe24ff2b55fadf003af34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5db29112f645f4dca43ef90b4201fd') in 0.351098 seconds 
+  Import took 0.357338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-Tyres.mat
+  artifactKey: Guid(b7f51a65744b04f47ab97ed9a82302dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-Tyres.mat using Guid(b7f51a65744b04f47ab97ed9a82302dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da85a3346e05ef39fd8ac362b8b3225b') in 0.326952 seconds 
+  Import took 0.332593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-WheelRims.mat
+  artifactKey: Guid(d8bcc739eed2649b282244b386b39aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-WheelRims.mat using Guid(d8bcc739eed2649b282244b386b39aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61e29c3ea164eaeb3562c55b66a1d56') in 0.007860 seconds 
+  Import took 0.013278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarChrome.mat
+  artifactKey: Guid(78c9e2e2addf043fba37143b60495478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarChrome.mat using Guid(78c9e2e2addf043fba37143b60495478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f1b3635de7f8289a03f8fed7da2c0c') in 0.008964 seconds 
+  Import took 0.014454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-Plane.mat
+  artifactKey: Guid(b8f3228713c914ec5af1845bba199765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-Plane.mat using Guid(b8f3228713c914ec5af1845bba199765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e746b8d81cc5b2140cad3bde16109fb6') in 0.008157 seconds 
+  Import took 0.014763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-CarChrome1.mat
+  artifactKey: Guid(79b4d20b7e2c841c9bbf7ec9164eab43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-CarChrome1.mat using Guid(79b4d20b7e2c841c9bbf7ec9164eab43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f598ea4d7c258cff800e50930d1e665a') in 0.009459 seconds 
+  Import took 0.015742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Body3.mat
+  artifactKey: Guid(2104102be739e497aadeae44a9e23139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Body3.mat using Guid(2104102be739e497aadeae44a9e23139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e57fea0bbef8bf5a962203c94e63f8f') in 0.359948 seconds 
+  Import took 0.368301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/FlatTerrain-TerrainShader.mat
+  artifactKey: Guid(a79e530177dbca84baa81584a662ffda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/FlatTerrain-TerrainShader.mat using Guid(a79e530177dbca84baa81584a662ffda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eeb96dd3db7e28709a39f020f1d841a') in 0.370271 seconds 
+  Import took 0.375792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Windows.mat
+  artifactKey: Guid(3750c2daa71d9474cbdd9ff6a48df142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Windows.mat using Guid(3750c2daa71d9474cbdd9ff6a48df142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383047ba043bddb78816d2848bbe5017') in 0.008176 seconds 
+  Import took 0.013158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarPlates_Rims.mat
+  artifactKey: Guid(4e2e8768399254e6397a00395f50345a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarPlates_Rims.mat using Guid(4e2e8768399254e6397a00395f50345a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779e7ed32e7148d09a5773f7ada3519b') in 0.008970 seconds 
+  Import took 0.014720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Body2.mat
+  artifactKey: Guid(a0c632a6d41be47809d07163ebaf04a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Body2.mat using Guid(a0c632a6d41be47809d07163ebaf04a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0beb7ad72d35dc536b310aa16c7aed') in 0.008680 seconds 
+  Import took 0.015111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarBody-1.mat
+  artifactKey: Guid(7a5d9c794f1aa483795f7422042e1c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarBody-1.mat using Guid(7a5d9c794f1aa483795f7422042e1c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64eed3acf53d44bca4df677eb6584b5b') in 0.008797 seconds 
+  Import took 0.014746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarChrome2.mat
+  artifactKey: Guid(a3db3b79b2f8247a5841bba15cfe0736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarChrome2.mat using Guid(a3db3b79b2f8247a5841bba15cfe0736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45a58700dca47a8c58f7c4e7d075afe') in 0.008167 seconds 
+  Import took 0.014051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/GrassSprockets.mat
+  artifactKey: Guid(3670152e0f5ac446fa1b055dd0c53080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Valley/Valley-Materials/GrassSprockets.mat using Guid(3670152e0f5ac446fa1b055dd0c53080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a42d48b603a58c82264709c73197cf6') in 0.011370 seconds 
+  Import took 0.017182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/StarterAssets/Environment/Art/Materials/GridBlue_01_Mat.mat
+  artifactKey: Guid(ff188f58422043f489060e28a5e4e0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Materials/GridBlue_01_Mat.mat using Guid(ff188f58422043f489060e28a5e4e0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c3f25850b4ef764922bbc664e456112') in 0.265888 seconds 
+  Import took 0.271446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx
+  artifactKey: Guid(f712806514868e54699156ec05dcb749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx using Guid(f712806514868e54699156ec05dcb749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17475c07cbef06813ac8174b47f37d77') in 0.032317 seconds 
+  Import took 0.038239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Wall_Mesh.fbx
+  artifactKey: Guid(ff02a0a00ab750f48b09459b1cafd1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Wall_Mesh.fbx using Guid(ff02a0a00ab750f48b09459b1cafd1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bdbb7e2665c05a16206549ae26c1c9') in 0.021840 seconds 
+  Import took 0.028463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/StarterAssets/Environment/Art/Materials/GridOrange_01_Mat.mat
+  artifactKey: Guid(7ab977a21c92388468ee65ad1c0e5a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Materials/GridOrange_01_Mat.mat using Guid(7ab977a21c92388468ee65ad1c0e5a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '472600a3883045d6b9cf827ebf1fa2b1') in 0.012165 seconds 
+  Import took 0.018831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/StarterAssets/Environment/Art/Materials/GridWhite_01_Mat.mat
+  artifactKey: Guid(dbf898c9f9c4a2d46aa6336e23caeb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Materials/GridWhite_01_Mat.mat using Guid(dbf898c9f9c4a2d46aa6336e23caeb61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2612ace995b6c703dc2e6107f7a7bcd') in 0.014962 seconds 
+  Import took 0.022031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx
+  artifactKey: Guid(c6a55ba99e9e99d41b7eef123e311a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx using Guid(c6a55ba99e9e99d41b7eef123e311a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2ab50d6eab50128b8b71ceb0d0f700') in 0.018510 seconds 
+  Import took 0.023704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/StarterAssets/Environment/Art/Materials/GreyBlue_Mat.mat
+  artifactKey: Guid(6b911390c5825014e8377183a7837d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Materials/GreyBlue_Mat.mat using Guid(6b911390c5825014e8377183a7837d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228a788ecf10d12b4eefaafa5b50f742') in 0.010440 seconds 
+  Import took 0.015722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-Windows.mat
+  artifactKey: Guid(e3a756b36108d41c2837a50418d882c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-Windows.mat using Guid(e3a756b36108d41c2837a50418d882c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005bd7a0697c7932fc8ad68a0629b07f') in 0.007300 seconds 
+  Import took 0.012970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Plane 3.mat
+  artifactKey: Guid(7ea70551973d64eb48aa89a206144079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Plane 3.mat using Guid(7ea70551973d64eb48aa89a206144079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa14d1d856abaad124520ad844cabec2') in 0.048458 seconds 
+  Import took 0.054101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Plane 2.mat
+  artifactKey: Guid(9316a15b4ba0b4f24b7c6ba705f05a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Plane 2.mat using Guid(9316a15b4ba0b4f24b7c6ba705f05a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bfa709dbc027b306f5fad36435677a') in 0.007853 seconds 
+  Import took 0.013752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Ground_Mesh.fbx
+  artifactKey: Guid(aa38d7b0e367ecc4aac915dcfe957879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Ground_Mesh.fbx using Guid(aa38d7b0e367ecc4aac915dcfe957879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a081ecc0f039a7dff5b82c4f6ca167') in 0.019559 seconds 
+  Import took 0.026206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarBody-2.mat
+  artifactKey: Guid(bb36b6b2f0f7544f38a1b7b4ade6144b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarBody-2.mat using Guid(bb36b6b2f0f7544f38a1b7b4ade6144b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedc4430a37d407a987a2a9613f96832') in 0.008421 seconds 
+  Import took 0.013910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Structure_Mesh.fbx
+  artifactKey: Guid(d0a9bfb4b5f28174884e89dd76563ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Structure_Mesh.fbx using Guid(d0a9bfb4b5f28174884e89dd76563ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b00267988d98545bb6c83561d1483b') in 0.022087 seconds 
+  Import took 0.027747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Plane 1.mat
+  artifactKey: Guid(3dfc8ff912d6e4fb48a3c3ab38ca08aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set4/Car-Set4-Plane 1.mat using Guid(3dfc8ff912d6e4fb48a3c3ab38ca08aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d256c5fd1a5e0eba12bfe3c24d8ce6') in 0.007495 seconds 
+  Import took 0.012896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarPlates.mat
+  artifactKey: Guid(6d04a4a37117a409aae15b2f396d8679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] Car/Car-Materials/Car-Materials-Set5/Car-Set5-CarPlates.mat using Guid(6d04a4a37117a409aae15b2f396d8679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147e59026773030457f92f47b4cecaf8') in 0.008713 seconds 
+  Import took 0.014083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.662910 seconds.
+  path: Assets/StarterAssets/Environment/Art/Models/Box_350x250x300_Mesh.fbx
+  artifactKey: Guid(d2f0da3998423f44594868ffed55c3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Models/Box_350x250x300_Mesh.fbx using Guid(d2f0da3998423f44594868ffed55c3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b61848e85df945c90946d535adfc33') in 0.034344 seconds 
+  Import took 0.045722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Cloud.mat
+  artifactKey: Guid(5481a35da307c44548792a454ef34271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Cloud.mat using Guid(5481a35da307c44548792a454ef34271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52435c938b00a6408ef4f18d468394d0') in 0.010569 seconds 
+  Import took 0.016817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-GrassBunch.mat
+  artifactKey: Guid(f83dcebc239614c2689adf1e8fdbc6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-GrassBunch.mat using Guid(f83dcebc239614c2689adf1e8fdbc6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3c7b7dd278b0b20bdfb989bf3e9b0f') in 0.009171 seconds 
+  Import took 0.014626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Leaves3.mat
+  artifactKey: Guid(d6461306e2f2c406e9a61049b47b3f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Leaves3.mat using Guid(d6461306e2f2c406e9a61049b47b3f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e45ee3ee86f477894e05be7898786f9') in 0.354154 seconds 
+  Import took 0.359044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-GrassIsles.mat
+  artifactKey: Guid(c7f074556bea848c58544e11c2fcc5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-GrassIsles.mat using Guid(c7f074556bea848c58544e11c2fcc5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca567c50e066486c0e1d7682573244f') in 0.008324 seconds 
+  Import took 0.013724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Leaves.mat
+  artifactKey: Guid(ad063a09dcd6c4bc2a4f937404dd5fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlatKit/Demos/[Demo] IslandWithTrees/IslandWithTrees-Materials/IslandWithTrees-Leaves.mat using Guid(ad063a09dcd6c4bc2a4f937404dd5fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64664db90db77b102a031c76569e02f') in 0.356420 seconds 
+  Import took 0.363145 seconds .
 
