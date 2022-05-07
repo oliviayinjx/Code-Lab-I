@@ -17,7 +17,7 @@ public class TimeManager : MonoBehaviour
 
     [Header("Water")]
     public GameObject drinker;
-    float waterInterval = 20f;
+    public float waterInterval = 30f;
     bool waterRefill = false;
 
 

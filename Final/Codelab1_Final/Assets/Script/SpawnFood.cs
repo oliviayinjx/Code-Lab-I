@@ -22,6 +22,7 @@ public class SpawnFood : MonoBehaviour
     void Start()
     {
         SetRanges();
+        _randomPosition = new Vector3(11.36f, -1.26f, 6.32f);
     }
 
     // Update is called once per frame
@@ -36,12 +37,13 @@ public class SpawnFood : MonoBehaviour
     public void newFood()
     {
         int randNum = Random.Range(0, foods.Length);
-        Instantiate(foods[randNum], _randomPosition, Quaternion.identity);
+        GameObject spawned = Instantiate(foods[randNum], _randomPosition, Quaternion.identity);
+        spawned.transform.localRotation = Quaternion.Euler(new Vector3(0, 0, Random.Range(0f, 360f)));
     }
 
     private void SetRanges()
     {
-        Min = new Vector3(5, 1.35f, 2); //Random value.
-        Max = new Vector3(13, 1.35f, 13); //Another ramdon value, just for the example.
+        Min = new Vector3(8.28f, 1.35f, 3.45f); //Random value.
+        Max = new Vector3(13.5f, 1.35f, 9.41f); //Another ramdon value, just for the example.
     }
 }

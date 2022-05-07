@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Interaction : MonoBehaviour
 {
-    public float sphereRadius = 3f;
+    public float sphereRadius = 1f;
     public float zOffset = 10f;
 
     GameObject heldObj;
@@ -70,7 +70,7 @@ public class Interaction : MonoBehaviour
             if (poopTimer <= 0)
             {
                 pooped = false;
-                poopTimer = 3f;
+                poopTimer = 2f;
             }
         }
     }
@@ -152,7 +152,7 @@ public class Interaction : MonoBehaviour
     void DropObject()
     {
         heldObj.transform.SetParent(null);
-        heldObj.transform.position = new Vector3 (dropoffRef.transform.position.x, dropOffHeight, dropoffRef.transform.position.z);
+        heldObj.transform.position = new Vector3 (dropoffRef.transform.position.x, dropoffRef.transform.position.y, dropoffRef.transform.position.z);
 
         objOriginalPos = Vector3.zero;
         heldObj = null;

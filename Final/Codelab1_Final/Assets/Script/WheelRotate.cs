@@ -44,7 +44,7 @@ public class WheelRotate : MonoBehaviour
             foreach (GameObject detector in detectors)
             {
                 detector.GetComponent<BoxCollider>().enabled = true;
-                detector.GetComponent<MeshRenderer>().enabled = true;
+                detector.GetComponent<MeshRenderer>().enabled = false;
             }
         }
 

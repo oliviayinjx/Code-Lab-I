@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4811140619283407750}
   - component: {fileID: 7643652808481512140}
   - component: {fileID: 6572457861724913240}
-  - component: {fileID: 8904853132770402413}
+  - component: {fileID: 8338259189041169164}
   m_Layer: 0
   m_Name: Sunflower Seed
   m_TagString: Food
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 4355743460453068989}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.66, y: 1.428713, z: 4.987728}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.61172, y: 0.61172, z: 0.61172}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -82,7 +82,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8904853132770402413
+--- !u!65 &8338259189041169164
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -90,8 +90,8 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4355743460453068989}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.8623806, y: 3.0597792, z: 1.9520833}
-  m_Center: {x: -0.07948821, y: 0.10117953, z: 0.15446775}
+  m_Size: {x: 1.8188977, y: 2.898773, z: 0.9649539}
+  m_Center: {x: 0, y: 0.020675479, z: 0}
