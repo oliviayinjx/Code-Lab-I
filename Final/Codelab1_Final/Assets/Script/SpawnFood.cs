@@ -28,6 +28,9 @@ public class SpawnFood : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown("escape"))
+            Application.Quit();
+
         _xAxis = Random.Range(Min.x, Max.x);
         _yAxis = Random.Range(Min.y, Max.y);
         _zAxis = Random.Range(Min.z, Max.z);

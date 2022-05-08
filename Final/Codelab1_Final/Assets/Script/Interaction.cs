@@ -53,7 +53,14 @@ public class Interaction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //exit game
+        if (Input.GetKeyDown("escape"))
+        {
+            Application.Quit();
+        }
+        //if the cursor is click
         cursorClick();
+        //drink timer
         if (drinkWater)
         {
             drinkTimer -= Time.deltaTime;
@@ -63,7 +70,7 @@ public class Interaction : MonoBehaviour
                 drinkTimer = 5f; 
             }
         }
-
+        //poop timer
         if(pooped)
         {
             poopTimer -= Time.deltaTime;
@@ -77,6 +84,7 @@ public class Interaction : MonoBehaviour
 
     void cursorClick()
     {
+        //get position of mouse and map to the camera pos
         Vector3 eyePosition = _mainCamera.transform.position;
         Vector3 mousePos = Input.mousePosition;
         mousePos.z = Camera.main.nearClipPlane;
@@ -88,14 +96,16 @@ public class Interaction : MonoBehaviour
         RaycastHit hitter = new RaycastHit();
         Debug.DrawLine(eyePosition, dir * 5f, Color.red);
 
+        //spherecast check
         if (Physics.SphereCast(eyePosition, sphereRadius, dir, out hitter))
         {
-            Debug.DrawRay(eyePosition, dir, Color.red);
+            //Debug.DrawRay(eyePosition, dir, Color.red);
             //&& hitter.collider.gameObject.tag == "Food"
 
-            //pickup object
+            //pickup food
             if(hitter.collider.gameObject.tag == "Food" && heldObj == null)
             {
+                //eat food
                 if (Input.GetMouseButton(0))
                 {
                     //Debug.Break(); //check this later!!!!!!!!!!!!
@@ -120,6 +130,7 @@ public class Interaction : MonoBehaviour
                 {
                     if (!drinkWater)
                     {
+                        //change the height of the water 
                         drinkWater = true;
                         float xzSize = drinker.transform.localScale.x;
                         float ySize = drinker.transform.localScale.y;
@@ -131,14 +142,14 @@ public class Interaction : MonoBehaviour
               }
             
         }
-
+        //eat object, eat food in hand
         if (heldObj != null && Input.GetKeyDown(KeyCode.F))
         {
             Destroy(heldObj);
         }
 
     }
-
+    //pick of the object
     void PickupObject (GameObject obj)
     {
         heldObj = obj;
@@ -148,7 +159,7 @@ public class Interaction : MonoBehaviour
         Vector3 newPos = pickupRef.transform.position;
         obj.transform.position = newPos;
     }
-
+    //drop object behind player
     void DropObject()
     {
         heldObj.transform.SetParent(null);
@@ -157,7 +168,8 @@ public class Interaction : MonoBehaviour
         objOriginalPos = Vector3.zero;
         heldObj = null;
     }
-
+    //if player stay in the restroom
+    //poop will be generated
     private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "Restroom" && !pooped)
